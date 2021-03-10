@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 63, in testWrapper\n    \"second(s).\".format(time_limit))\nTimeoutError: Test aborted due to timeout. Test was expected to finish in fewer than 2 second(s).\n",
+            "description": "Testing optic_flow_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 135, in test_expand\n    expanded = ps4.expand_image(test_array.copy())\n  File \"/home/vmuser_tdygfhwv/workspace/ps4.py\", line 384, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing expand (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 235, in test_laplacian_pyramid\n    l_pyr = ps4.laplacian_pyramid(g_pyr_copy)\n  File \"/home/vmuser_tdygfhwv/workspace/ps4.py\", line 404, in laplacian_pyramid\n    G1 = expand_image(gpyr[l])\n  File \"/home/vmuser_tdygfhwv/workspace/ps4.py\", line 384, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing laplacian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 357, in test_warp\n    cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_tdygfhwv/workspace/ps4.py\", line 451, in warp\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing warp (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 415, in test_hierarchical_LK\n    cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_tdygfhwv/workspace/ps4.py\", line 482, in hierarchical_lk\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing hierarchical_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tdygfhwv/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tdygfhwv/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 124, in test_reduce\n    \"Answer: {}\".format(reduced, ref_reduced))\nAssertionError: Output does not match the reference solution. Make sure you closely follow the 5-tap filter process shown in the lectures and the paper provided in the instructions. \nDifference allowed: 0.05. \nStudent's output: [[ 0.52141964  0.57821703  0.62868124  0.61841953  0.37859088  0.46499372\n   0.54910779]\n [ 0.50243485  0.6231212   0.72087824  0.62452453  0.42155045  0.44808471\n   0.54868084]\n [ 0.46605343  0.63663155  0.75349939  0.6365701   0.48788318  0.46497357\n   0.57928246]\n [ 0.44641411  0.59290403  0.69184858  0.62676638  0.51225817  0.44513029\n   0.42446902]\n [ 0.6094768   0.60951954  0.63413417  0.61230028  0.57724828  0.49197358\n   0.43408284]\n [ 0.58465362  0.51570237  0.4519763   0.42734614  0.51131952  0.4963122\n   0.50584894]\n [ 0.53302121  0.46468139  0.45937958  0.49773642  0.51418442  0.55110419\n   0.59907234]\n [ 0.4717094   0.46468991  0.41139251  0.43802741  0.51329935  0.63255769\n   0.65351784]]\nAnswer: [[ 0.51200824  0.57950291  0.59292718  0.66431723  0.35323969  0.49128781\n   0.56043739]\n [ 0.46595963  0.63703598  0.72494763  0.62870986  0.39204075  0.44995238\n   0.55296565]\n [ 0.44466275  0.65904275  0.7624306   0.63598274  0.49485984  0.45386118\n   0.61175077]\n [ 0.38811245  0.60429605  0.68804951  0.62205375  0.51458628  0.43811638\n   0.41994362]\n [ 0.63393245  0.61918735  0.65020568  0.63424117  0.59735577  0.50101498\n   0.44615266]\n [ 0.58172164  0.52028499  0.43823374  0.3964115   0.51052756  0.48297491\n   0.50169798]\n [ 0.5493124   0.45838544  0.4719604   0.5323421   0.51875097  0.55320601\n   0.62265443]\n [ 0.457478    0.47531136  0.40652986  0.43219394  0.51945874  0.63800064\n   0.65325873]]\n",
+            "description": "Testing reduce (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing create_combined_img (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing gaussian_pyramid (10 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

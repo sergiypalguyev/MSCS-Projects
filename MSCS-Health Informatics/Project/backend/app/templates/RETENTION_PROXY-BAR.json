@@ -1,0 +1,16 @@
+{
+    "labels": [
+      "One",
+      "Two",
+      "Three",
+      "One",
+      "Two",
+      "Three",
+      "One",
+      "Two",
+      "Three"],
+    "data": {
+      "first": [10, 20, 30,10, 20, 30,10, 20, 30],
+      "second": [1, 2, 3,1, 2, 3,1, 2, 3]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 135, in test_expand\n    expanded = ps4.expand_image(test_array.copy())\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 306, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing expand (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 109, in test_reduce\n    reduced = ps4.reduce_image(test_array.copy())\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 202, in reduce_image\n    im = plt.imread(image)\nNameError: global name 'plt' is not defined\n",
+            "description": "Testing reduce (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 290, in test_create_combined_img\n    comb_img = ps4.create_combined_img(g_pyr_copy)\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 281, in create_combined_img\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing create_combined_img (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 175, in test_gaussian_pyramid\n    g_pyr = ps4.gaussian_pyramid(test_array.copy(), levels=levels)\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 254, in gaussian_pyramid\n    pyr = [img]\nNameError: global name 'img' is not defined\n",
+            "description": "Testing gaussian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 235, in test_laplacian_pyramid\n    l_pyr = ps4.laplacian_pyramid(g_pyr_copy)\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 321, in laplacian_pyramid\n    gpyr = gaussian_pyramid(img, levels)\nNameError: global name 'img' is not defined\n",
+            "description": "Testing laplacian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 357, in test_warp\n    cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 371, in warp\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing warp (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 415, in test_hierarchical_LK\n    cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_tmfiboap/workspace/ps4.py\", line 402, in hierarchical_lk\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing hierarchical_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tmfiboap/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_tmfiboap/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 78, in test_optic_flow_LK\n    self.assertTrue(check_u, error_msg)\nAssertionError: Average of U values in the area where there is movement is greater than the allowed amount.\n Max difference allowed: 0.5.\n Student's average U: nan. \n Actual U value used: -1.\n",
+            "description": "Testing optic_flow_LK (25 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

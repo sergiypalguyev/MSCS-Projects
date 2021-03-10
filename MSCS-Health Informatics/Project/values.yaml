@@ -1,0 +1,44 @@
+global:
+  namespace: globalhivteam30 
+
+frontend:
+  name: ghivt30frontend
+  port: 8080
+  replicaCount: 1
+  proxy:
+    incomingPath: /ghivt30frontend/
+    containerPath: / # empty string "" means use same as incomingPath, else val in string will replace the value of incomingPath when traffic is sent to the application in the deployed container
+  image:
+   repository: gt-build.hdap.gatech.edu/ghivt30frontend
+   tag: latest
+   pullPolicy: Always
+  env:
+    BACKEND_BASE_URL: "https://apps.hdap.gatech.edu/ghivt30backend/ghivt30backend"
+
+backend:
+  name: ghivt30backend 
+  port: 80 
+  #port: 57366
+  replicaCount: 1
+  proxy:
+    incomingPath: /ghivt30backend/
+    containerPath: /
+  image:
+    repository: gt-build.hdap.gatech.edu/ghivt30backend
+    tag: latest
+    pullPolicy: Always
+  env:
+    DB_NAME: fhirbase 
+    DB_USER: postgres 
+    DB_HOST: ghivt30db 
+    DB_PORT: "\"5432\""
+    DB_FQDN: "ghivt30db-service.globalhivteam30.svc.cluster.local"
+
+database:
+  name: ghivt30db 
+  port: 5432
+  replicaCount: 1
+  image:
+    repository: gt-build.hdap.gatech.edu/ghivt30db
+    tag: latest
+    pullPolicy: Always

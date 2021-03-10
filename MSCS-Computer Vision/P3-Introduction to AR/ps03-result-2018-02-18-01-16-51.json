@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tnyhzfkl/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 367, in test_projective_geometry\n    self.test_grad_image.copy(), black_bg, self.homography)\n  File \"/home/vmuser_tnyhzfkl/workspace/ps3.py\", line 298, in project_imageA_onto_imageB\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for project_imageA_onto_imageB (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tnyhzfkl/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 337, in test_solving_for_homography\n    self.marker_positions)\n  File \"/home/vmuser_tnyhzfkl/workspace/ps3.py\", line 321, in find_four_point_transform\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for find_four_point_transform (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tnyhzfkl/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 395, in test_frame_generator\n    image = image_gen.next()\n  File \"/home/vmuser_tnyhzfkl/workspace/ps3.py\", line 339, in video_frame_generator\n    while video.isOpened():\nAttributeError: 'NoneType' object has no attribute 'isOpened'\n",
+            "description": "Test for video_frame_generator (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_tnyhzfkl/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 328, in test_get_corners_list\n    self.assertEqual(a[0], b[0], msg=error_msg % ('X', i, b[0], a[0]))\nAssertionError: X outside of tolerance at index 1. Expected 0.0 instead got 199.0.\n",
+            "description": "Test for get_corners_list (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers with noise: just circles (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers on empty background (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers with noise: circles + gaussian (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for draw_box (5 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

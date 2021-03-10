@@ -1,0 +1,19 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "",
+            "description": ""
+        }
+    ],
+    "unauthorized_lib_calls": [
+        {
+            "func_call": "cv2.pyrUp",
+            "lineno": 281,
+            "col_offset": 11,
+            "filename": "ps4.py"
+        }
+    ]
+}

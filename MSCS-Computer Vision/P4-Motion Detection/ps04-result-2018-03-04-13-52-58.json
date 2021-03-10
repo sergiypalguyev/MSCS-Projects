@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 63, in testWrapper\n    \"second(s).\".format(time_limit))\nTimeoutError: Test aborted due to timeout. Test was expected to finish in fewer than 2 second(s).\n",
+            "description": "Testing optic_flow_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 135, in test_expand\n    expanded = ps4.expand_image(test_array.copy())\n  File \"/home/vmuser_gmanplwy/workspace/ps4.py\", line 375, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing expand (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 235, in test_laplacian_pyramid\n    l_pyr = ps4.laplacian_pyramid(g_pyr_copy)\n  File \"/home/vmuser_gmanplwy/workspace/ps4.py\", line 391, in laplacian_pyramid\n    lpyr = [gpyr.size-1]\nAttributeError: 'list' object has no attribute 'size'\n",
+            "description": "Testing laplacian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 357, in test_warp\n    cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_gmanplwy/workspace/ps4.py\", line 440, in warp\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing warp (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 415, in test_hierarchical_LK\n    cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_gmanplwy/workspace/ps4.py\", line 471, in hierarchical_lk\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing hierarchical_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 124, in test_reduce\n    \"Answer: {}\".format(reduced, ref_reduced))\nAssertionError: Output does not match the reference solution. Make sure you closely follow the 5-tap filter process shown in the lectures and the paper provided in the instructions. \nDifference allowed: 0.05. \nStudent's output: [[149 198 156 125 255 238 203 170 184]\n [122 113  92 136 178 166 174 150 121]\n [ 94  84 113 186 172 152 140 176 169]\n [172 180 189 189 203 183 102 151 166]\n [141 165 199 177 120 112  51  10  32]\n [ 57 103 220 236 118 124  90   0 104]\n [191 119  93 123 120 132 130 148 219]]\nAnswer: [[ 0.45335014  0.57935819  0.5123145   0.49796473  0.71692801  0.61123216\n   0.60917358  0.47793462  0.61892016]\n [ 0.5606982   0.46668565  0.43648605  0.472029    0.48515544  0.45957429\n   0.57288966  0.43791942  0.46454592]\n [ 0.40422739  0.42086747  0.47004487  0.55835376  0.54051821  0.51162965\n   0.50881843  0.50879931  0.54236473]\n [ 0.53698914  0.51841655  0.52002158  0.54683594  0.51267738  0.55014772\n   0.42550245  0.53686314  0.54797277]\n [ 0.51572683  0.53925464  0.55325465  0.49471464  0.43031516  0.4962745\n   0.40503393  0.37337361  0.3447986 ]\n [ 0.34850144  0.4411964   0.59528648  0.60800555  0.48368143  0.43879444\n   0.42733413  0.35510692  0.49644653]\n [ 0.55338893  0.49332208  0.41610623  0.45987927  0.45998921  0.52671209\n   0.48870278  0.50457988  0.56976496]]\n",
+            "description": "Testing reduce (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_gmanplwy/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_gmanplwy/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 220, in test_gaussian_pyramid\n    self.assertTrue(correct, error_msg)\nAssertionError: Value at level 1 does not match the answer. Make sure your reduce_image() function is passing the autograder. \n\n",
+            "description": "Testing gaussian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing create_combined_img (5 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

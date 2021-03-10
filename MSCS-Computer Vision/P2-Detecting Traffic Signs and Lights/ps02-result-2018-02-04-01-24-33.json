@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_axdsltiu/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 111, in testStopSignBlank\n    100, ps2.stop_sign_detection, 6, 10)\n  File \"run.py\", line 105, in traffic_sign_scene_helper\n    \"\".format(expected_y, result[1], tol))\nAssertionError: Y coordinate does not meet tolerance. Expected: 234. Returned: 267. Tolerance: 10.\n",
+            "description": "Test for stop sign detection with a blank scene (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_axdsltiu/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 138, in testYieldSignBlank\n    100, ps2.yield_sign_detection, 6, 10)\n  File \"run.py\", line 99, in traffic_sign_scene_helper\n    \"\".format(expected_x, result[0], tol))\nAssertionError: X coordinate does not meet tolerance. Expected: 345. Returned: 360. Tolerance: 10.\n",
+            "description": "Test for yield sign detection with a blank scene (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for construction sign detection with a blank scene (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for do not enter sign detection with a blank scene (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for traffic light detection with a blank scene (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for traffic light detection with a simulated street scene (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for warning sign detection with a blank scene (5 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

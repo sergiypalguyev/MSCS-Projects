@@ -1,0 +1,8 @@
+*.log
+*.pot
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+.vscode/settings.json
+HDAP_helm_deploy_templates/*

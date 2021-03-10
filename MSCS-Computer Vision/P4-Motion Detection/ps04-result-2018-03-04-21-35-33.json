@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 63, in testWrapper\n    \"second(s).\".format(time_limit))\nTimeoutError: Test aborted due to timeout. Test was expected to finish in fewer than 2 second(s).\n",
+            "description": "Testing optic_flow_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 135, in test_expand\n    expanded = ps4.expand_image(test_array.copy())\n  File \"/home/vmuser_oijuywat/workspace/ps4.py\", line 384, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing expand (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 235, in test_laplacian_pyramid\n    l_pyr = ps4.laplacian_pyramid(g_pyr_copy)\n  File \"/home/vmuser_oijuywat/workspace/ps4.py\", line 404, in laplacian_pyramid\n    G1 = expand_image(gpyr[l])\n  File \"/home/vmuser_oijuywat/workspace/ps4.py\", line 384, in expand_image\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing laplacian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 357, in test_warp\n    cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_oijuywat/workspace/ps4.py\", line 451, in warp\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing warp (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 415, in test_hierarchical_LK\n    cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_oijuywat/workspace/ps4.py\", line 482, in hierarchical_lk\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Testing hierarchical_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_oijuywat/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_oijuywat/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 124, in test_reduce\n    \"Answer: {}\".format(reduced, ref_reduced))\nAssertionError: Output does not match the reference solution. Make sure you closely follow the 5-tap filter process shown in the lectures and the paper provided in the instructions. \nDifference allowed: 0.05. \nStudent's output: [[ 0.60100329  0.5098772   0.43865055  0.51005423  0.58975548  0.57830644\n   0.62090361  0.72905093  0.5335561 ]\n [ 0.55012482  0.55644166  0.53472483  0.5095911   0.5795809   0.58021075\n   0.61489391  0.72328079  0.56703067]\n [ 0.4382548   0.53928649  0.56064242  0.59889871  0.61064184  0.50969803\n   0.51739442  0.52763116  0.53555489]\n [ 0.41569403  0.50411743  0.50722873  0.52377301  0.55889726  0.4715575\n   0.44838816  0.46577543  0.52263337]\n [ 0.46348277  0.48963973  0.44667915  0.44087136  0.4665935   0.42459646\n   0.47391385  0.53236663  0.50020528]\n [ 0.43367049  0.41602892  0.47441638  0.6333878   0.44446051  0.41724464\n   0.44530433  0.43589878  0.54945922]\n [ 0.37710357  0.41545045  0.52439034  0.57894254  0.38438565  0.49248511\n   0.5351547   0.44497526  0.47757363]\n [ 0.49749064  0.42896032  0.47170907  0.51865762  0.4022302   0.41700619\n   0.53724086  0.572483    0.45679453]]\nAnswer: [[ 0.59884767  0.48379914  0.40535669  0.51693316  0.59279072  0.55488245\n   0.61679028  0.73845868  0.50885445]\n [ 0.55779913  0.57323312  0.55457168  0.48329125  0.57716677  0.58781312\n   0.61563395  0.75030353  0.56889063]\n [ 0.40162618  0.54428306  0.54290077  0.60382115  0.62914335  0.49438124\n   0.51841654  0.50612471  0.52735853]\n [ 0.39201204  0.5157396   0.50513232  0.53154504  0.58475337  0.45022323\n   0.44498859  0.45818227  0.52633732]\n [ 0.47741183  0.50944609  0.44059761  0.40894891  0.46894207  0.41519349\n   0.47762577  0.5522435   0.47787067]\n [ 0.43621897  0.4133422   0.45713123  0.69484788  0.44456896  0.42045944\n   0.43083755  0.42424984  0.56082027]\n [ 0.36670269  0.42144478  0.52159613  0.59732422  0.34759741  0.5134136\n   0.54382602  0.42350569  0.46492919]\n [ 0.51985684  0.42660094  0.46914855  0.54206793  0.39453853  0.40388273\n   0.53823256  0.58098539  0.43437858]]\n",
+            "description": "Testing reduce (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing create_combined_img (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing gaussian_pyramid (10 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

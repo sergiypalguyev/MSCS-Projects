@@ -1,0 +1,54 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_iodajzfp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 111, in testStopSignBlank\n    100, ps2.stop_sign_detection, 6, 10)\n  File \"run.py\", line 105, in traffic_sign_scene_helper\n    \"\".format(expected_y, result[1], tol))\nAssertionError: Y coordinate does not meet tolerance. Expected: 217. Returned: 233. Tolerance: 10.\n",
+            "description": "Test for stop sign detection with a blank scene (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_iodajzfp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 145, in testTrafficLightBlank\n    \"blank\")\n  File \"run.py\", line 70, in traffic_light_scene_helper\n    result[1]))\nAssertionError: Wrong state value. Expected: red. Returned: yellow\n",
+            "description": "Test for traffic light detection with a blank scene (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_iodajzfp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 152, in testTrafficLightScene\n    \"scene\")\n  File \"run.py\", line 70, in traffic_light_scene_helper\n    result[1]))\nAssertionError: Wrong state value. Expected: red. Returned: yellow\n",
+            "description": "Test for traffic light detection with a simulated street scene (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for construction sign detection with a blank scene (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for do not enter sign detection with a blank scene (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for warning sign detection with a blank scene (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for yield sign detection with a blank scene (20 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

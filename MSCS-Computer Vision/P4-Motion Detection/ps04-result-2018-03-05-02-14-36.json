@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_folkcdux/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_folkcdux/verify_student_output_test.py\", line 63, in testWrapper\n    \"second(s).\".format(time_limit))\nTimeoutError: Test aborted due to timeout. Test was expected to finish in fewer than 2 second(s).\n",
+            "description": "Testing optic_flow_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_folkcdux/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_folkcdux/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 357, in test_warp\n    cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_folkcdux/workspace/ps4.py\", line 475, in warp\n    warped = [image[int(h+y), int(w+x)] for x, y in zip(X, Y)]\nTypeError: only length-1 arrays can be converted to Python scalars\n",
+            "description": "Testing warp (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_folkcdux/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"/home/vmuser_folkcdux/verify_student_output_test.py\", line 32, in handler\n    queue.put((None, testcase(obj)))\n  File \"run.py\", line 415, in test_hierarchical_LK\n    cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_folkcdux/workspace/ps4.py\", line 544, in hierarchical_lk\n    Ck = warp(Bk[k-1], U, V,cv2.INTER_CUBIC, cv2.BORDER_REFLECT101)\n  File \"/home/vmuser_folkcdux/workspace/ps4.py\", line 475, in warp\n    warped = [image[int(h+y), int(w+x)] for x, y in zip(X, Y)]\nTypeError: only length-1 arrays can be converted to Python scalars\n",
+            "description": "Testing hierarchical_LK (25 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing expand (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing reduce (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing create_combined_img (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing gaussian_pyramid (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Testing laplacian_pyramid (10 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

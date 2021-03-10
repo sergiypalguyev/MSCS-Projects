@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vkhgofpa/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 395, in test_frame_generator\n    image = image_gen.next()\n  File \"/home/vmuser_vkhgofpa/workspace/ps3.py\", line 314, in video_frame_generator\n    while video.isOpened():\nAttributeError: 'NoneType' object has no attribute 'isOpened'\n",
+            "description": "Test for video_frame_generator (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers with noise: just circles (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers on empty background (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_markers with noise: circles + gaussian (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for draw_box (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for get_corners_list (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for project_imageA_onto_imageB (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "passed"
+            },
+            "traceback": "",
+            "description": "Test for find_four_point_transform (20 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

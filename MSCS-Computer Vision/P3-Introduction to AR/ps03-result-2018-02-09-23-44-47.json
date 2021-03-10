@@ -1,0 +1,61 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 171, in test_detection_in_simulated_noisy_circles\n    ret_list = ps3.find_markers(test_image.astype('uint8'), template)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 54, in find_markers\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for find_markers with noise: just circles (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 127, in test_detection_in_simulated_scene\n    template)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 54, in find_markers\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for find_markers on empty background (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 223, in test_detection_in_simulated_with_gaussian_and_circles\n    template)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 54, in find_markers\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for find_markers with noise: circles + gaussian (15 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 263, in test_draw_box\n    'uint8'), markers, 1)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 73, in draw_box\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for draw_box (5 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 316, in test_get_corners_list\n    clist = ps3.get_corners_list(np.zeros((self.height, self.width)))\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 36, in get_corners_list\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for get_corners_list (10 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 367, in test_projective_geometry\n    self.test_grad_image.copy(), black_bg, self.homography)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 92, in project_imageA_onto_imageB\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for project_imageA_onto_imageB (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 337, in test_solving_for_homography\n    self.marker_positions)\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 115, in find_four_point_transform\n    raise NotImplementedError\nNotImplementedError\n",
+            "description": "Test for find_four_point_transform (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_ocgqvrts/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 395, in test_frame_generator\n    image = image_gen.next()\n  File \"/home/vmuser_ocgqvrts/workspace/ps3.py\", line 133, in video_frame_generator\n    while video.isOpened():\nAttributeError: 'NoneType' object has no attribute 'isOpened'\n",
+            "description": "Test for video_frame_generator (5 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}
