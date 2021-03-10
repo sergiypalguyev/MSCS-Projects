@@ -1,0 +1,2 @@
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 100 episodes. avg.error=0.0, avg.delta=0.049, avg.reward=0.3
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 100 episodes. avg.error=0.0, avg.delta=0.048, avg.reward=0.32

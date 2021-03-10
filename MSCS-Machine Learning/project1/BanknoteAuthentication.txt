@@ -1,0 +1,20 @@
+BanknoteAuthentication Decision Tree calculated BEST parameters are 10 Leaves, 9 Tree Depth with 0.97 score at 74% Train and 26% Test
+Predicting with 98.6% Train Accuracy, 98.3% Test Accuracy, 96.7% CV Accuracy, 98.7% Precision Score, 97.4% Recall Score and 98.0% \F-1 Score
+BanknoteAuthentication AdaBoost calculated BEST parameters are 20 Estimator, 0.00046415888336127773 Learning Rate with 0.98 score at 50% Train and 50% Test
+Predicting with 100.0% Train Accuracy, 97.8% Test Accuracy, 97.4% CV Accuracy, 95.4% Precision Score, 99.7% Recall Score and 97.5% \F-1 Score
+BanknoteAuthentication KNN calculated BEST parameters are minkowski Metric, 5 Neighbors with 1.0 score at 66% Train and 34% Test
+Predicting with 99.9% Train Accuracy, 99.8% Test Accuracy, 100.0% CV Accuracy, 99.6% Precision Score, 100.0% Recall Score and 99.8% \F-1 Score
+BanknoteAuthentication NeuralNet calculated BEST parameters are (108, 29) Layers, 0.001 Alpha with 1.0 score at 10% Train and 90% Test
+Predicting with 100.0% Train Accuracy, 99.6% Test Accuracy, 99.3% CV Accuracy, 99.1% Precision Score, 100.0% Recall Score and 99.5% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are linear Kernel, 5.994842503189409 C value, 0.1 Gamma with 1.0 score at 10% Train and 90% Test
+Predicting with 100.0% Train Accuracy, 96.5% Test Accuracy, 100.0% CV Accuracy, 98.7% Precision Score, 93.5% Recall Score and 96.0% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are rbf Kernel, 21.54434690031882 C value, 4.6415888336127775 Gamma with 1.0 score at 50% Train and 50% Test
+Predicting with 100.0% Train Accuracy, 100.0% Test Accuracy, 100.0% CV Accuracy, 100.0% Precision Score, 100.0% Recall Score and 100.0% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are rbf Kernel, 100.0 C value, 0.1 Gamma with 1.0 score at 34% Train and 66% Test
+Predicting with 100.0% Train Accuracy, 100.0% Test Accuracy, 100.0% CV Accuracy, 100.0% Precision Score, 100.0% Recall Score and 100.0% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are rbf Kernel, 5.994842503189409 C value, 0.1 Gamma with 1.0 score at 42% Train and 58% Test
+Predicting with 100.0% Train Accuracy, 100.0% Test Accuracy, 100.0% CV Accuracy, 100.0% Precision Score, 100.0% Recall Score and 100.0% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are rbf Kernel, 3.593813663804626 C value, 0.21544346900318834 Gamma with 1.0 score at 10% Train and 90% Test
+Predicting with 100.0% Train Accuracy, 99.2% Test Accuracy, 100.0% CV Accuracy, 98.2% Precision Score, 100.0% Recall Score and 99.1% \F-1 Score
+BanknoteAuthentication SVM calculated BEST parameters are rbf Kernel, 2.1544346900318834 C value, 0.2782559402207124 Gamma with 1.0 score at 18% Train and 82% Test
+Predicting with 100.0% Train Accuracy, 100.0% Test Accuracy, 100.0% CV Accuracy, 100.0% Precision Score, 100.0% Recall Score and 100.0% \F-1 Score

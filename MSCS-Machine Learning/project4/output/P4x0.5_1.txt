@@ -1,0 +1,10 @@
+FrozenLakeP1-4@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 17/2000 iterations in 0.05(s). delta=0.0270123633, mean=0.1729, reward=0.282. rewards/iterations=0.19
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(0.001) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(0.001) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 1/2000 iterations in 0.0(s). delta=0.0, mean=0.0, reward=0.0. rewards/iterations=0.0

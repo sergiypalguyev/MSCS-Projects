@@ -1,0 +1,52 @@
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 23/2000 iterations in 0.38(s). delta=0.0044077727, mean=0.0485, reward=0.08. rewards/iterations=0.038
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 28/2000 iterations in 0.35(s). delta=0.0111311107, mean=0.066, reward=0.079. rewards/iterations=0.041
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 28/2000 iterations in 0.35(s). delta=0.0111311107, mean=0.066, reward=0.079. rewards/iterations=0.041
+PI Convergence True  gamma(1.0), theta(0.001) reached at 28/2000 iterations in 0.36(s). delta=0.0111311107, mean=0.066, reward=0.079. rewards/iterations=0.041
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 32/2000 iterations in 0.42(s). delta=1.517e-07, mean=0.0119, reward=0.066. rewards/iterations=0.04
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 21/2000 iterations in 0.26(s). delta=8.9464e-06, mean=0.0119, reward=0.066. rewards/iterations=0.029
+PI Convergence True  gamma(0.7), theta(0.001) reached at 11/2000 iterations in 0.13(s). delta=0.0006515458, mean=0.0118, reward=0.004. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 15/2000 iterations in 0.18(s). delta=4.49e-08, mean=0.0073, reward=0.066. rewards/iterations=0.015
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 10/2000 iterations in 0.13(s). delta=6.5526e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 6/2000 iterations in 0.07(s). delta=0.0004213992, mean=0.0073, reward=0.0. rewards/iterations=0.0
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 26/2000 iterations in 0.31(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 26/2000 iterations in 0.3(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(0.001) reached at 20/2000 iterations in 0.24(s). delta=0.0009890373, mean=0.0242, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 26/2000 iterations in 0.31(s). delta=1.168e-07, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 17/2000 iterations in 0.19(s). delta=6.0731e-06, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(0.001) reached at 9/2000 iterations in 0.11(s). delta=0.000676558, mean=0.0108, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 13/2000 iterations in 0.16(s). delta=7.66e-08, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 9/2000 iterations in 0.12(s). delta=7.6913e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 5/2000 iterations in 0.07(s). delta=0.0007374486, mean=0.0073, reward=0.0. rewards/iterations=0.0
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 26/2000 iterations in 0.33(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 26/2000 iterations in 0.31(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(0.001) reached at 20/2000 iterations in 0.24(s). delta=0.0009890373, mean=0.0242, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 26/2000 iterations in 0.32(s). delta=1.168e-07, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 17/2000 iterations in 0.21(s). delta=6.0731e-06, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(0.001) reached at 9/2000 iterations in 0.1(s). delta=0.000676558, mean=0.0108, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 13/2000 iterations in 0.16(s). delta=7.66e-08, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 9/2000 iterations in 0.1(s). delta=7.6913e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 5/2000 iterations in 0.07(s). delta=0.0007374486, mean=0.0073, reward=0.0. rewards/iterations=0.0
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 26/2000 iterations in 0.3(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 26/2000 iterations in 0.32(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(0.001) reached at 20/2000 iterations in 0.23(s). delta=0.0009890373, mean=0.0242, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 26/2000 iterations in 0.32(s). delta=1.168e-07, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 17/2000 iterations in 0.22(s). delta=6.0731e-06, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(0.001) reached at 9/2000 iterations in 0.11(s). delta=0.000676558, mean=0.0108, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 13/2000 iterations in 0.16(s). delta=7.66e-08, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 9/2000 iterations in 0.11(s). delta=7.6913e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 5/2000 iterations in 0.06(s). delta=0.0007374486, mean=0.0073, reward=0.0. rewards/iterations=0.0
+FrozenLakeP0-8@0.5
+PI Convergence True  gamma(1.0), theta(1e-07) reached at 26/2000 iterations in 0.31(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(1e-05) reached at 26/2000 iterations in 0.31(s). delta=0.0008712781, mean=0.025, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(1.0), theta(0.001) reached at 20/2000 iterations in 0.25(s). delta=0.0009890373, mean=0.0242, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-07) reached at 26/2000 iterations in 0.32(s). delta=1.168e-07, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(1e-05) reached at 17/2000 iterations in 0.19(s). delta=6.0731e-06, mean=0.0109, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.7), theta(0.001) reached at 9/2000 iterations in 0.12(s). delta=0.000676558, mean=0.0108, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-07) reached at 13/2000 iterations in 0.16(s). delta=7.66e-08, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(1e-05) reached at 9/2000 iterations in 0.11(s). delta=7.6913e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+PI Convergence True  gamma(0.4), theta(0.001) reached at 5/2000 iterations in 0.06(s). delta=0.0007374486, mean=0.0073, reward=0.0. rewards/iterations=0.0

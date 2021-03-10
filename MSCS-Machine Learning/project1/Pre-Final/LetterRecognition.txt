@@ -1,0 +1,8 @@
+LetterRecognition Decision Tree calculated BEST parameters are 11 Leaves, 11 Tree Depth with 0.72 score at 66% Train and 34% Test
+Predicting with 75.7% Train Accuracy, 72.5% Test Accuracy, 71.0% CV Accuracy, 78.6% Precision Score, 72.5% Recall Score and 74.2% \F-1 Score
+LetterRecognition AdaBoost calculated BEST parameters are 90 Estimator, 0.00021544346900318845 Learning Rate with 0.85 score at 82% Train and 18% Test
+Predicting with 100.0% Train Accuracy, 88.7% Test Accuracy, 85.2% CV Accuracy, 88.8% Precision Score, 88.7% Recall Score and 88.7% \F-1 Score
+LetterRecognition KNN calculated BEST parameters are euclidean Metric, 1 Neighbors with 0.94 score at 82% Train and 18% Test
+Predicting with 100.0% Train Accuracy, 95.0% Test Accuracy, 94.0% CV Accuracy, 95.0% Precision Score, 95.0% Recall Score and 95.0% \F-1 Score
+LetterRecognition SVM calculated BEST parameters are rbf Kernel, 5.994842503189409 C value, 0.2782559402207124 Gamma with 0.96 score at 74% Train and 26% Test
+Predicting with 100.0% Train Accuracy, 97.1% Test Accuracy, 96.5% CV Accuracy, 97.1% Precision Score, 97.1% Recall Score and 97.1% \F-1 Score

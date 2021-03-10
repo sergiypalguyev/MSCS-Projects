@@ -1,0 +1,105 @@
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 4/1000 iterations in 8.59(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.504
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 0.01(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.401
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.027, avg.delta=0.037, avg.reward=0.333
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 4/1000 iterations in 8.38(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.504
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 0.01(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.401
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.03, avg.delta=0.036, avg.reward=0.324
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 4/1000 iterations in 8.53(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.504
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 0.02(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.401
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.029, avg.delta=0.04, avg.reward=0.372
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 4/1000 iterations in 9.53(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.504
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 0.0(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.401
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.016, avg.delta=0.041, avg.reward=0.367
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 4/1000 iterations in 8.91(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.504
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 0.01(s). delta=0.0, mean=0.3529, reward=0.416. rewards/iterations=0.401
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.033, avg.delta=0.037, avg.reward=0.357
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 5/1000 iterations in 12.36(s). delta=0.0, mean=0.3758, reward=0.398. rewards/iterations=0.453
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 1/1000 iterations in 0.01(s). delta=0.0, mean=0.0, reward=0.337. rewards/iterations=0.337
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.01, avg.delta=0.042, avg.reward=0.342
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 5/1000 iterations in 12.3(s). delta=0.0, mean=0.3758, reward=0.398. rewards/iterations=0.453
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 1/1000 iterations in 0.01(s). delta=0.0, mean=0.0, reward=0.337. rewards/iterations=0.337
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.004, avg.delta=0.043, avg.reward=0.359
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 5/1000 iterations in 12.24(s). delta=0.0, mean=0.3758, reward=0.398. rewards/iterations=0.453
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 1/1000 iterations in 0.01(s). delta=0.0, mean=0.0, reward=0.337. rewards/iterations=0.337
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.011, avg.delta=0.041, avg.reward=0.337
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 5/1000 iterations in 12.06(s). delta=0.0, mean=0.3758, reward=0.398. rewards/iterations=0.454
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 1/1000 iterations in 0.01(s). delta=0.0, mean=0.0, reward=0.337. rewards/iterations=0.337
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.007, avg.delta=0.046, avg.reward=0.385
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 5/1000 iterations in 12.07(s). delta=0.0, mean=0.3758, reward=0.398. rewards/iterations=0.454
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 1/1000 iterations in 0.01(s). delta=0.0, mean=0.0, reward=0.337. rewards/iterations=0.337
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.008, avg.delta=0.042, avg.reward=0.351
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 17.94(s). delta=0.0, mean=0.3877, reward=0.389. rewards/iterations=0.437
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 0.18(s). delta=0.0, mean=0.3877, reward=0.416. rewards/iterations=0.38
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.003, avg.delta=0.042, avg.reward=0.344
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 18.06(s). delta=0.0, mean=0.3877, reward=0.389. rewards/iterations=0.436
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 0.18(s). delta=0.0, mean=0.3877, reward=0.416. rewards/iterations=0.38
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.002, avg.delta=0.047, avg.reward=0.374
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 17.84(s). delta=0.0, mean=0.3877, reward=0.389. rewards/iterations=0.437
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 0.19(s). delta=0.0, mean=0.3877, reward=0.416. rewards/iterations=0.38
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.004, avg.delta=0.043, avg.reward=0.343
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 17.8(s). delta=0.0, mean=0.3877, reward=0.389. rewards/iterations=0.437
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 0.19(s). delta=0.0, mean=0.3877, reward=0.416. rewards/iterations=0.38
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.003, avg.delta=0.042, avg.reward=0.333
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 6/1000 iterations in 17.78(s). delta=0.0, mean=0.3877, reward=0.389. rewards/iterations=0.437
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 0.17(s). delta=0.0, mean=0.3877, reward=0.416. rewards/iterations=0.38
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.003, avg.delta=0.042, avg.reward=0.34
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 7/1000 iterations in 28.14(s). delta=0.0, mean=0.3938, reward=0.397. rewards/iterations=0.436
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 0.67(s). delta=0.0, mean=0.3938, reward=0.413. rewards/iterations=0.387
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.044, avg.reward=0.361
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 7/1000 iterations in 27.96(s). delta=0.0, mean=0.3938, reward=0.397. rewards/iterations=0.437
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 0.77(s). delta=0.0, mean=0.3938, reward=0.413. rewards/iterations=0.387
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.002, avg.delta=0.04, avg.reward=0.328
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 7/1000 iterations in 33.18(s). delta=0.0, mean=0.3938, reward=0.397. rewards/iterations=0.436
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 0.89(s). delta=0.0, mean=0.3938, reward=0.413. rewards/iterations=0.387
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.002, avg.delta=0.041, avg.reward=0.362
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 7/1000 iterations in 27.75(s). delta=0.0, mean=0.3938, reward=0.397. rewards/iterations=0.436
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 0.76(s). delta=0.0, mean=0.3938, reward=0.413. rewards/iterations=0.387
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.002, avg.delta=0.041, avg.reward=0.329
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 7/1000 iterations in 29.17(s). delta=0.0, mean=0.3938, reward=0.397. rewards/iterations=0.436
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 0.68(s). delta=0.0, mean=0.3938, reward=0.413. rewards/iterations=0.387
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.041, avg.reward=0.35
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 56.51(s). delta=0.0, mean=0.3969, reward=0.427. rewards/iterations=0.45
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 3.17(s). delta=0.0, mean=0.3969, reward=0.444. rewards/iterations=0.4
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.039, avg.reward=0.352
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 46.5(s). delta=0.0, mean=0.3969, reward=0.427. rewards/iterations=0.45
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 2.97(s). delta=0.0, mean=0.3969, reward=0.444. rewards/iterations=0.4
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.037, avg.reward=0.323
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 47.9(s). delta=0.0, mean=0.3969, reward=0.427. rewards/iterations=0.45
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 2.89(s). delta=0.0, mean=0.3969, reward=0.444. rewards/iterations=0.4
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.043, avg.reward=0.35
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 47.58(s). delta=0.0, mean=0.3969, reward=0.427. rewards/iterations=0.45
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 3.04(s). delta=0.0, mean=0.3969, reward=0.444. rewards/iterations=0.4
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.04, avg.reward=0.335
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 8/1000 iterations in 47.2(s). delta=0.0, mean=0.3969, reward=0.427. rewards/iterations=0.45
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 2.9(s). delta=0.0, mean=0.3969, reward=0.444. rewards/iterations=0.4
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.04, avg.reward=0.351
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 72.36(s). delta=0.0, mean=0.3984, reward=0.413. rewards/iterations=0.434
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 11/1000 iterations in 12.55(s). delta=0.0, mean=0.3984, reward=0.414. rewards/iterations=0.396
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.035, avg.reward=0.328
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 71.26(s). delta=0.0, mean=0.3984, reward=0.413. rewards/iterations=0.434
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 11/1000 iterations in 12.79(s). delta=0.0, mean=0.3984, reward=0.414. rewards/iterations=0.396
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.036, avg.reward=0.372
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 84.77(s). delta=0.0, mean=0.3984, reward=0.413. rewards/iterations=0.434
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 11/1000 iterations in 13.36(s). delta=0.0, mean=0.3984, reward=0.414. rewards/iterations=0.396
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.038, avg.reward=0.347
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 76.43(s). delta=0.0, mean=0.3984, reward=0.413. rewards/iterations=0.434
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 11/1000 iterations in 14.82(s). delta=0.0, mean=0.3984, reward=0.414. rewards/iterations=0.396
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.035, avg.reward=0.317
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 9/1000 iterations in 74.67(s). delta=0.0, mean=0.3984, reward=0.413. rewards/iterations=0.434
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 11/1000 iterations in 12.92(s). delta=0.0, mean=0.3984, reward=0.414. rewards/iterations=0.396
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.043, avg.reward=0.336
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 127.35(s). delta=0.0, mean=0.3992, reward=0.408. rewards/iterations=0.416
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 12/1000 iterations in 54.69(s). delta=0.0, mean=0.3992, reward=0.42. rewards/iterations=0.383
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.039, avg.reward=0.349
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 132.77(s). delta=0.0, mean=0.3992, reward=0.408. rewards/iterations=0.416
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 12/1000 iterations in 53.61(s). delta=0.0, mean=0.3992, reward=0.42. rewards/iterations=0.383
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.034, avg.reward=0.322
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 123.91(s). delta=0.0, mean=0.3992, reward=0.408. rewards/iterations=0.416
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 12/1000 iterations in 53.0(s). delta=0.0, mean=0.3992, reward=0.42. rewards/iterations=0.383
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.039, avg.reward=0.332
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 124.18(s). delta=0.0, mean=0.3992, reward=0.408. rewards/iterations=0.416
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 12/1000 iterations in 53.25(s). delta=0.0, mean=0.3992, reward=0.42. rewards/iterations=0.383
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.034, avg.reward=0.324
+VI Convergence True  gamma(1.0), theta(1e-08) reached at 10/1000 iterations in 123.52(s). delta=0.0, mean=0.3992, reward=0.408. rewards/iterations=0.416
+PI Convergence True  gamma(1.0), theta(1e-08) reached at 12/1000 iterations in 53.22(s). delta=0.0, mean=0.3992, reward=0.42. rewards/iterations=0.383
+Q epsilon eMax(0.5) eMin(0.3) eDecay(0.001) Convergence False in 1000 episodes. avg.error=0.001, avg.delta=0.031, avg.reward=0.299

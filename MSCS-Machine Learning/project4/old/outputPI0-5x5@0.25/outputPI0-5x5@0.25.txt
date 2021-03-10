@@ -1,0 +1,9 @@
+PI Convergence 1.0, 1e-07 reached at 17/33333 iterations in 0.05(s). delta=0.002933993, mean=0.091, reward=0.017
+PI Convergence 1.0, 1e-05 reached at 17/33333 iterations in 0.11(s). delta=0.002933993, mean=0.091, reward=0.017
+PI Convergence 1.0, 0.001 reached at 17/33333 iterations in 0.11(s). delta=0.002933993, mean=0.091, reward=0.017
+PI Convergence 0.7, 1e-07 reached at 17/33333 iterations in 0.11(s). delta=6.8254e-06, mean=0.0474, reward=0.017
+PI Convergence 0.7, 1e-05 reached at 17/33333 iterations in 0.06(s). delta=6.8254e-06, mean=0.0474, reward=0.017
+PI Convergence 0.7, 0.001 reached at 9/33333 iterations in 0.03(s). delta=0.000673141, mean=0.0473, reward=0.017
+PI Convergence 0.4, 1e-07 reached at 13/33333 iterations in 0.09(s). delta=4.69e-08, mean=0.0344, reward=0.017
+PI Convergence 0.4, 1e-05 reached at 9/33333 iterations in 0.05(s). delta=4.3728e-06, mean=0.0344, reward=0.017
+PI Convergence 0.4, 0.001 reached at 5/33333 iterations in 0.03(s). delta=0.0004073525, mean=0.0344, reward=0.0

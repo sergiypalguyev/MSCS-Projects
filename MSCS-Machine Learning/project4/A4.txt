@@ -1,0 +1,27 @@
+Convergence!!!
+	How long does it take?
+	Which values affect it?
+
+Exploration and Exploitation
+
+
+
+
+https://reinforcement-learning4.fun/2019/06/16/gym-tutorial-frozen-lake/
+file:///C:/Users/Astro/Downloads/Li-Pyeatt2005_Chapter_AShortTutorialOnReinforcementL.pdf
+https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/
+https://medium.com/@nancyjemi/level-up-understanding-q-learning-cf739867eb1d
+https://stackoverflow.com/questions/53198503/epsilon-and-learning-rate-decay-in-epsilon-greedy-q-learning
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+https://medium.com/@james_32022/frozen-lake-with-q-learning-4038b804abc1
+https://medium.com/@james_32022/blackjack-following-the-patterns-9da60a2487c7
+https://towardsdatascience.com/my-journey-to-reinforcement-learning-part-1-q-learning-with-table-35540020bcf9
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf
+https://artint.info/html/ArtInt_266.html
+https://www.cs.cmu.edu/afs/cs/academic/class/15381-s07/www/slides/050107reinforcementLearning1.pdf
+https://www.freecodecamp.org/news/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe/
+https://github.com/paulhendricks/gym-gambling
+https://github.com/prasad-madhale/gym-gamblers/blob/master/gym_gamblers/envs/gamblers_env.py
+http://web.stanford.edu/class/cme241/lecture_slides/rich_sutton_slides/7-8-DP.pdf
+https://cs.stackexchange.com/questions/77145/reinforcement-learning-an-introduction-a-gamblers-problem-exercise-4-7-solut
+https://medium.com/@jaems33/gamblers-problem-b4e91040e58a

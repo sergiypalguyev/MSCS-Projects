@@ -1,0 +1,2 @@
+LetterRecognition NeuralNet calculated BEST parameters are (150, 51) Layers, 0.1 Alpha with 0.95 score at 82% Train and 18% Test
+Predicting with 99.3% Train Accuracy, 96.4% Test Accuracy, 95.3% CV Accuracy, 96.5% Precision Score, 96.4% Recall Score and 96.4% \F-1 Score

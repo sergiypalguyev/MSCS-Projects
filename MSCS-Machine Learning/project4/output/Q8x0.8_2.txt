@@ -1,0 +1,4 @@
+FrozenLakeQ2-8@0.8
+Q8x0.8_2 random LearningRateTest
+Q random aMax(0.3) aMin(0.01) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.001, avg.delta=0.0, avg.reward=0.001\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.001, avg.delta=0.0, avg.reward=0.001\n

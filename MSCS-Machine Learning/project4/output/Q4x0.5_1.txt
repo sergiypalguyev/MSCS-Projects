@@ -1,0 +1,59 @@
+FrozenLakeQ1-4@0.5
+Q4x0.5_1 random LearningRateTest
+Q random aMax(0.3) aMin(0.01) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.007, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.008, avg.delta=0.014, avg.reward=0.003\n
+Q random aMax(0.4) aMin(0.1) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.003, avg.reward=0.003\n
+Q random aMax(0.4) aMin(0.1) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.011, avg.reward=0.003\n
+Q random aMax(0.4) aMin(0.1) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.012, avg.delta=0.028, avg.reward=0.003\n
+Q random aMax(0.5) aMin(0.2) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.009, avg.reward=0.003\n
+Q random aMax(0.5) aMin(0.2) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.01, avg.delta=0.027, avg.reward=0.003\n
+Q random aMax(0.5) aMin(0.2) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.016, avg.delta=0.046, avg.reward=0.003\n
+Q4x0.5_1 random DiscountFactorTest
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.005, avg.delta=0.003, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.007, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.002, avg.delta=0.011, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.007, avg.delta=0.002, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.003, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.005, avg.reward=0.004\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.009, avg.delta=0.001, avg.reward=0.002\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.007, avg.delta=0.002, avg.reward=0.003\n
+Q random aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.003, avg.reward=0.003\n
+Q4x0.5_1 greedy LearningRateTest
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.4) aMin(0.1) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.4) aMin(0.1) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.4) aMin(0.1) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.5) aMin(0.2) aDecay(0.001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.5) aMin(0.2) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.5) aMin(0.2) aDecay(1e-05) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q4x0.5_1 greedy DiscountFactorTest
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(1.0) gMin(0.8) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.9) gMin(0.7) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(0.001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q greedy aMax(0.3) aMin(0.01) aDecay(0.0001) gMax(0.8) gMin(0.6) gDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.0, avg.delta=0.0, avg.reward=0.0\n
+Q4x0.5_1 ucb Test
+Q ucb beta(1) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.015, avg.reward=0.112
+Q ucb beta(0.7) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.019, avg.reward=0.144
+Q ucb beta(0.5) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.016, avg.reward=0.113
+Q4x0.5_1 boltzman Test
+Q boltzman T(1) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.004, avg.reward=0.004
+Q boltzman T(0.1) Convergence False in 20000 episodes. avg.error=0.004, avg.delta=0.007, avg.reward=0.015
+Q boltzman T(0.01) Convergence False in 20000 episodes. avg.error=0.005, avg.delta=0.028, avg.reward=0.199
+Q4x0.5_1 epsilon Test
+Q epsilon eMax(1.0) eMin(0.5) eDecay(0.001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.01, avg.reward=0.017
+Q epsilon eMax(0.9) eMin(0.4) eDecay(0.001) Convergence False in 20000 episodes. avg.error=0.007, avg.delta=0.011, avg.reward=0.024
+Q epsilon eMax(0.8) eMin(0.3) eDecay(0.001) Convergence False in 20000 episodes. avg.error=0.007, avg.delta=0.013, avg.reward=0.039
+Q epsilon eMax(1.0) eMin(0.5) eDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.004, avg.delta=0.007, avg.reward=0.008
+Q epsilon eMax(0.9) eMin(0.4) eDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.008, avg.reward=0.012
+Q epsilon eMax(0.8) eMin(0.3) eDecay(0.0001) Convergence False in 20000 episodes. avg.error=0.006, avg.delta=0.007, avg.reward=0.016
+Q epsilon eMax(1.0) eMin(0.5) eDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.003, avg.delta=0.006, avg.reward=0.004
+Q epsilon eMax(0.9) eMin(0.4) eDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.004, avg.delta=0.006, avg.reward=0.004
+Q epsilon eMax(0.8) eMin(0.3) eDecay(1e-05) Convergence False in 20000 episodes. avg.error=0.004, avg.delta=0.007, avg.reward=0.006

@@ -1,0 +1,8 @@
+Team073:	
+Raul Viera
+Tuan Dang	
+Nitesh Ananadan	
+Sergiy Palguyev
+
+SQL containing file:
+\Tools4Rent\src\edu\gatech\dbclass\t4r\Database.java

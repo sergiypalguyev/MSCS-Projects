@@ -1,0 +1,219 @@
+Original Accuracy: 0.9854545454545455
+Original F1 score: 0.9854707964944185
+Original Recall: 0.9854545454545455
+Original Precision: 0.985905567300916
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       150
+           1       0.97      1.00      0.98       125
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+Original confussion matrix: 
+[[146   4]
+ [  0 125]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1234.75, MutualInfo: 0.24, Homogeneity: 0.39, Completeness: 0.17, Silhouette: 0.35
+BanknoteAuthenticationOriginal Best Silhouete EM 6 clusters, SIL: 0.30, AIC: 7105.55, BIC: 7550.58
+BanknoteAuthenticationOriginal Best BIC EM 2 clusters, SIL: 0.31, AIC: 9166.64, BIC: 9311.65
+BanknoteAuthenticationOriginal Best AIC EM 2 clusters, SIL: 0.31, AIC: 9166.64, BIC: 9311.65
+
+PCA Accuracy: 0.8981818181818182
+PCA F1 score: 0.8983221528259697
+PCA Recall: 0.8981818181818182
+PCA Precision: 0.899982683982684
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90       148
+           1       0.87      0.92      0.89       127
+
+    accuracy                           0.90       275
+   macro avg       0.90      0.90      0.90       275
+weighted avg       0.90      0.90      0.90       275
+
+PCA confussion matrix: 
+[[130  18]
+ [ 10 117]]
+
+PCA Accuracy: 0.8872727272727273
+PCA F1 score: 0.8874084978253597
+PCA Recall: 0.8872727272727273
+PCA Precision: 0.8877568895535142
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90       154
+           1       0.86      0.88      0.87       121
+
+    accuracy                           0.89       275
+   macro avg       0.89      0.89      0.89       275
+weighted avg       0.89      0.89      0.89       275
+
+PCA confussion matrix: 
+[[137  17]
+ [ 14 107]]
+
+BanknoteAuthenticationPCA Best SSE k-Means 5 clusters, SSE: 1042.19, MutualInfo: 0.27, Homogeneity: 0.43, Completeness: 0.19, Silhouette: 0.35
+BanknoteAuthenticationPCA Best Silhouete EM 4 clusters, SIL: 0.30, AIC: 7450.16, BIC: 7645.17
+BanknoteAuthenticationPCA Best BIC EM 2 clusters, SIL: 0.27, AIC: 8723.22, BIC: 8818.23
+BanknoteAuthenticationPCA Best AIC EM 2 clusters, SIL: 0.27, AIC: 8723.22, BIC: 8818.23
+
+PCA Accuracy: 0.8909090909090909
+PCA F1 score: 0.891332127436107
+PCA Recall: 0.8909090909090909
+PCA Precision: 0.8941171923314781
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.87      0.90       157
+           1       0.84      0.92      0.88       118
+
+    accuracy                           0.89       275
+   macro avg       0.89      0.89      0.89       275
+weighted avg       0.89      0.89      0.89       275
+
+PCA confussion matrix: 
+[[137  20]
+ [ 10 108]]
+
+PCA Accuracy: 0.8945454545454545
+PCA F1 score: 0.8948746966118778
+PCA Recall: 0.8945454545454545
+PCA Precision: 0.8971241565061252
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90       155
+           1       0.85      0.92      0.88       120
+
+    accuracy                           0.89       275
+   macro avg       0.89      0.90      0.89       275
+weighted avg       0.90      0.89      0.89       275
+
+PCA confussion matrix: 
+[[136  19]
+ [ 10 110]]
+
+BanknoteAuthenticationPCA Best SSE k-Means 5 clusters, SSE: 1020.10, MutualInfo: 0.26, Homogeneity: 0.43, Completeness: 0.19, Silhouette: 0.31
+BanknoteAuthenticationPCA Best Silhouete EM 10 clusters, SIL: 0.28, AIC: 7038.87, BIC: 7533.91
+BanknoteAuthenticationPCA Best BIC EM 2 clusters, SIL: 0.27, AIC: 8699.38, BIC: 8794.39
+BanknoteAuthenticationPCA Best AIC EM 2 clusters, SIL: 0.27, AIC: 8699.38, BIC: 8794.39
+
+RP Accuracy: 0.9672727272727273
+RP F1 score: 0.9673749058450655
+RP Recall: 0.9672727272727273
+RP Precision: 0.9695560253699788
+RP clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97       155
+           1       0.93      1.00      0.96       120
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.97      0.97       275
+weighted avg       0.97      0.97      0.97       275
+
+RP confussion matrix: 
+[[146   9]
+ [  0 120]]
+
+BanknoteAuthenticationRP Best SSE k-Means 4 clusters, SSE: 641.65, MutualInfo: 0.07, Homogeneity: 0.10, Completeness: 0.05, Silhouette: 0.37
+BanknoteAuthenticationRP Best Silhouete EM 3 clusters, SIL: 0.34, AIC: 6412.07, BIC: 6557.08
+BanknoteAuthenticationRP Best BIC EM 2 clusters, SIL: 0.46, AIC: 6604.47, BIC: 6699.48
+BanknoteAuthenticationRP Best AIC EM 2 clusters, SIL: 0.46, AIC: 6604.47, BIC: 6699.48
+
+RP Accuracy: 0.7418181818181818
+RP F1 score: 0.7407556626107955
+RP Recall: 0.7418181818181818
+RP Precision: 0.7420945501653694
+RP clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.74      0.79      0.77       146
+           1       0.75      0.68      0.71       129
+
+    accuracy                           0.74       275
+   macro avg       0.74      0.74      0.74       275
+weighted avg       0.74      0.74      0.74       275
+
+RP confussion matrix: 
+[[116  30]
+ [ 41  88]]
+
+BanknoteAuthenticationRP Best SSE k-Means 6 clusters, SSE: 711.20, MutualInfo: 0.13, Homogeneity: 0.22, Completeness: 0.09, Silhouette: 0.34
+BanknoteAuthenticationRP Best Silhouete EM 8 clusters, SIL: 0.32, AIC: 6626.18, BIC: 7021.21
+BanknoteAuthenticationRP Best BIC EM 2 clusters, SIL: 0.44, AIC: 7846.46, BIC: 7941.47
+BanknoteAuthenticationRP Best AIC EM 2 clusters, SIL: 0.44, AIC: 7846.46, BIC: 7941.47
+
+RP Accuracy: 0.9854545454545455
+RP F1 score: 0.9854707964944185
+RP Recall: 0.9854545454545455
+RP Precision: 0.985905567300916
+RP clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       150
+           1       0.97      1.00      0.98       125
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+RP confussion matrix: 
+[[146   4]
+ [  0 125]]
+
+BanknoteAuthenticationRP Best Silhouete EM 3 clusters, SIL: 0.39, AIC: 3480.46, BIC: 3625.47
+BanknoteAuthenticationRP Best BIC EM 2 clusters, SIL: 0.29, AIC: 3483.13, BIC: 3578.13
+BanknoteAuthenticationRP Best AIC EM 2 clusters, SIL: 0.29, AIC: 3483.13, BIC: 3578.13
+
+FT Accuracy: 0.9818181818181818
+FT F1 score: 0.9818673052715605
+FT Recall: 0.9818181818181818
+FT Precision: 0.9825757575757578
+FT clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       160
+           1       0.96      1.00      0.98       115
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+FT confussion matrix: 
+[[155   5]
+ [  0 115]]
+
+BanknoteAuthenticationFT Best SSE k-Means 5 clusters, SSE: 914.70, MutualInfo: 0.44, Homogeneity: 0.72, Completeness: 0.32, Silhouette: 0.37
+BanknoteAuthenticationFT Best Silhouete EM 4 clusters, SIL: 0.36, AIC: 7281.48, BIC: 7476.49
+BanknoteAuthenticationFT Best BIC EM 2 clusters, SIL: 0.27, AIC: 8267.43, BIC: 8362.43
+BanknoteAuthenticationFT Best AIC EM 2 clusters, SIL: 0.27, AIC: 8267.43, BIC: 8362.43
+
+ICA Accuracy: 0.8690909090909091
+ICA F1 score: 0.8693812516597328
+ICA Recall: 0.8690909090909091
+ICA Precision: 0.8700436818083876
+ICA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89       160
+           1       0.83      0.86      0.85       115
+
+    accuracy                           0.87       275
+   macro avg       0.86      0.87      0.87       275
+weighted avg       0.87      0.87      0.87       275
+
+ICA confussion matrix: 
+[[140  20]
+ [ 16  99]]
+
+BanknoteAuthenticationICA Best SSE k-Means 5 clusters, SSE: 1029.63, MutualInfo: 0.27, Homogeneity: 0.44, Completeness: 0.20, Silhouette: 0.34
+BanknoteAuthenticationICA Best Silhouete EM 5 clusters, SIL: 0.29, AIC: 7350.62, BIC: 7595.64
+BanknoteAuthenticationICA Best BIC EM 2 clusters, SIL: 0.26, AIC: 8054.88, BIC: 8149.88
+BanknoteAuthenticationICA Best AIC EM 2 clusters, SIL: 0.26, AIC: 8054.88, BIC: 8149.88
+

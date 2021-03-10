@@ -1,0 +1,19 @@
+Original Accuracy: 0.9818181818181818
+Original F1 score: 0.9818776959596097
+Original Recall: 0.9818181818181818
+Original Precision: 0.9826018808777429
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       164
+           1       0.96      1.00      0.98       111
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[159   5]
+ [  0 111]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1211.84, MutualInfo: 0.23, Homogeneity: 0.38, Completeness: 0.17, Silhouette: 0.33

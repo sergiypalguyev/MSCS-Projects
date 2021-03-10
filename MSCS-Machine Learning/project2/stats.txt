@@ -1,0 +1,25 @@
+Four_Peaks RHC max_attempts=128, # restarts=65, best_fitness=60.0
+Four_Peaks SA max_attempts=128, # decay=geom, best_fitness=60.0
++ Four_Peaks GA max_attempts=256, # population=1000, mutation=0.001, best_fitness=104.0
+Four_Peaks MIMIC max_attempts=32, # population=250, keep %=0.3, best_fitness=77.0
+
++ Knapsack RHC max_attempts=32, # restarts=65, best_fitness=376.0
+Knapsack SA max_attempts=8, # decay=arith, best_fitness=325.0
++ Knapsack GA max_attempts=32, # population=1000, mutation=0.001, best_fitness=381.0
+Knapsack MIMIC max_attempts=4, # population=250, keep %=0.3, best_fitness=366.0
+
+Flip_Flop RHC max_attempts=128, # restarts=65, best_fitness=47.0
++ Flip_Flop SA max_attempts=128, # decay=geom, best_fitness=49.0
+Flip_Flop GA max_attempts=256, # population=100, mutation=0.001, best_fitness=48.0
+Flip_Flop MIMIC max_attempts=32, # population=250, keep %=0.3, best_fitness=49.0
+
++ OneMax RHC max_attempts=512, # restarts=5, best_fitness=1000.0
+OneMax SA max_attempts=512, # decay=exp, best_fitness=998.0
+OneMax GA max_attempts=256, # population=1000, mutation=0.001, best_fitness=700.0
+
+BanknoteAuthentication NeuralNet calculated BEST parameters are (76, 80) Layers, 0.1 Alpha with 1.0 score at 26% Train and 74% Test                                                                                                                          Test  
+Predicting with 100.0% Train Accuracy, 99.2% Test Accuracy, 99.7% CV Accuracy, 98.3% Precision Score, 100.0% Recall Score and 99.1% \
+99.1% \F-1 Score                                                                                                                     F-1 Score
+
+Knapsack MIMIC max_attempts=32, # population=250, keep %=0.01, best_fitness=350.0
+Flip_Flop MIMIC max_attempts=4, # population=250, keep %=0.3, best_fitness=48.0

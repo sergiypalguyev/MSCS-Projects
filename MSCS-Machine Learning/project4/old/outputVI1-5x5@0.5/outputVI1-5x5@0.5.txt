@@ -1,0 +1,9 @@
+VI Convergence 1.0, 1e-07 reached at 101/33333 iterations in 296.18(s). delta=9.32e-08, mean=0.0813, reward=0.012
+VI Convergence 1.0, 1e-05 reached at 59/33333 iterations in 171.0(s). delta=8.9872e-06, mean=0.0813, reward=0.012
+VI Convergence 1.0, 0.001 reached at 15/33333 iterations in 42.26(s). delta=0.0009456543, mean=0.0803, reward=0.012
+VI Convergence 0.7, 1e-07 reached at 21/33333 iterations in 61.0(s). delta=7.6e-08, mean=0.0453, reward=0.012
+VI Convergence 0.7, 1e-05 reached at 12/33333 iterations in 33.43(s). delta=9.2668e-06, mean=0.0453, reward=0.012
+VI Convergence 0.7, 0.001 reached at 7/33333 iterations in 19.03(s). delta=0.0006937767, mean=0.0452, reward=0.012
+VI Convergence 0.4, 1e-07 reached at 10/33333 iterations in 26.91(s). delta=5.36e-08, mean=0.034, reward=0.012
+VI Convergence 0.4, 1e-05 reached at 7/33333 iterations in 19.06(s). delta=6.2341e-06, mean=0.034, reward=0.012
+VI Convergence 0.4, 0.001 reached at 4/33333 iterations in 11.42(s). delta=0.0006929675, mean=0.034, reward=0.0

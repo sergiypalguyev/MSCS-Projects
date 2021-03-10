@@ -1,0 +1,40 @@
+{
+    "tests": [
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hskoxmbp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 266, in test_appearance_particle_filter\n    alpha=alpha, template_coords=template_rect)\n  File \"/home/vmuser_hskoxmbp/workspace/ps5.py\", line 304, in __init__\n    super(AppearanceModelPF, self).__init__(frame, template, **kwargs)  # call base class constructor\n  File \"/home/vmuser_hskoxmbp/workspace/ps5.py\", line 91, in __init__\n    (r, c) = template.shape\nValueError: too many values to unpack\n",
+            "description": "Test Appearance Particle Filter (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hskoxmbp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 219, in test_particle_filter\n    template_coords=template_rect, temp=template_coords)\n  File \"/home/vmuser_hskoxmbp/workspace/ps5.py\", line 91, in __init__\n    (r, c) = template.shape\nValueError: too many values to unpack\n",
+            "description": "Test base particle_filter (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hskoxmbp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 155, in test_kf_three_color\n    Noise=NOISE_1)\n  File \"run.py\", line 65, in test_kf_frames\n    frame_num=i, **kwargs)\n  File \"run.py\", line 131, in check_center\n    actual_center, max_distance, kwargs))\nAssertionError: Test failed at frame: 3 / 100. \nEstimated center is too far from the actual center. \nStudent's center: (138.0, 204.0) \nActual center: (150, 199) \nMax euclidean distance allowed: 10 \nParameters used: {'Q': \"Student's Default\", 'R': \"Student's Default\", 'Noise': {'y': 2.5, 'x': 2.5}}\n",
+            "description": "Test base Kalman filter (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hskoxmbp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 178, in test_kf_three_color_noise\n    Noise=NOISE_1)\n  File \"run.py\", line 65, in test_kf_frames\n    frame_num=i, **kwargs)\n  File \"run.py\", line 131, in check_center\n    actual_center, max_distance, kwargs))\nAssertionError: Test failed at frame: 4 / 100. \nEstimated center is too far from the actual center. \nStudent's center: (272.0, 52.0) \nActual center: (253, 64) \nMax euclidean distance allowed: 15 \nParameters used: {'Q': 'Diagonal matrix of 2.0', 'R': 'Diagonal matrix of 3.0', 'Noise': {'y': 2.5, 'x': 2.5}}\n",
+            "description": "Test base Kalman filter with measurement NOISE_1 (20 points)"
+        },
+        {
+            "output": {
+                "passfail": "failed"
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_hskoxmbp/CVResult.py\", line 29, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 200, in test_kf_three_color_noise_2\n    Noise=NOISE_2)\n  File \"run.py\", line 65, in test_kf_frames\n    frame_num=i, **kwargs)\n  File \"run.py\", line 131, in check_center\n    actual_center, max_distance, kwargs))\nAssertionError: Test failed at frame: 5 / 100. \nEstimated center is too far from the actual center. \nStudent's center: (144.0, 47.0) \nActual center: (119, 34) \nMax euclidean distance allowed: 25 \nParameters used: {'Q': 'Diagonal matrix of 2.0', 'R': 'Diagonal matrix of 5.0', 'Noise': {'y': 7.5, 'x': 7.5}}\n",
+            "description": "Test base Kalman filter with measurement NOISE_2 (20 points)"
+        }
+    ],
+    "unauthorized_lib_calls": []
+}

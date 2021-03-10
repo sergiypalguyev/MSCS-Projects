@@ -1,0 +1,964 @@
+
+Test Case 1  		<single>
+   Options :  None
+
+
+Test Case 2  		<single>
+   Length of the string :  Zero
+
+
+Test Case 3  		<single>
+   Length of the string :  One
+
+
+Test Case 4  		<error>
+   Length of the string :  Longer than the file
+
+
+Test Case 5  		<single>
+   Presence of special characters :  None
+
+
+Test Case 6  		<single>
+   Length of the string :  Zero
+
+
+Test Case 7  		<single>
+   Length of the string :  One
+
+
+Test Case 8  		<error>
+   Length of the string :  Longer than the file
+
+
+Test Case 9  		<single>
+   Presence of special characters :  None
+
+
+Test Case 10 		<single>
+   Count :  Zero
+
+
+Test Case 11 		<single>
+   Count :  One
+
+
+Test Case 12 		<single>
+   Size :  Empty
+
+
+Test Case 13 		<single>
+   Number of occurrences of the string fragment in the file :  None
+
+
+Test Case 14 		<single>
+   Number of occurrences of the string fragment in one line :  None
+
+
+Test Case 15 		<single>
+   Position of the string fragment in the file :  First line
+
+
+Test Case 16 		<single>
+   Position of the string fragment in the file :  Last line
+
+
+Test Case 17 		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 18 		(Key = 2.3.2.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 19 		(Key = 2.3.2.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 20 		(Key = 2.3.2.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 21 		(Key = 2.3.2.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 22 		(Key = 2.3.2.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 23 		(Key = 2.3.2.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 24 		(Key = 2.3.2.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 25 		(Key = 2.3.2.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 26 		(Key = 2.3.3.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 27 		(Key = 2.3.3.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 28 		(Key = 2.3.3.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 29 		(Key = 2.3.3.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 30 		(Key = 2.3.3.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 31 		(Key = 2.3.3.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 32 		(Key = 2.3.3.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 33 		(Key = 2.3.3.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -b
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 34 		(Key = 3.3.2.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 35 		(Key = 3.3.2.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 36 		(Key = 3.3.2.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 37 		(Key = 3.3.2.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 38 		(Key = 3.3.2.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 39 		(Key = 3.3.2.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 40 		(Key = 3.3.2.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 41 		(Key = 3.3.2.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 42 		(Key = 3.3.3.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 43 		(Key = 3.3.3.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 44 		(Key = 3.3.3.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 45 		(Key = 3.3.3.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 46 		(Key = 3.3.3.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 47 		(Key = 3.3.3.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 48 		(Key = 3.3.3.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 49 		(Key = 3.3.3.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -f
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 50 		(Key = 4.3.2.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 51 		(Key = 4.3.2.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 52 		(Key = 4.3.2.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 53 		(Key = 4.3.2.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 54 		(Key = 4.3.2.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 55 		(Key = 4.3.2.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 56 		(Key = 4.3.2.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 57 		(Key = 4.3.2.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 58 		(Key = 4.3.3.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 59 		(Key = 4.3.3.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 60 		(Key = 4.3.3.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 61 		(Key = 4.3.3.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 62 		(Key = 4.3.3.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 63 		(Key = 4.3.3.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 64 		(Key = 4.3.3.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 65 		(Key = 4.3.3.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -l
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 66 		(Key = 5.3.2.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 67 		(Key = 5.3.2.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 68 		(Key = 5.3.2.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 69 		(Key = 5.3.2.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 70 		(Key = 5.3.2.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 71 		(Key = 5.3.2.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 72 		(Key = 5.3.2.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 73 		(Key = 5.3.2.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 74 		(Key = 5.3.3.3.2.3.2.2.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 75 		(Key = 5.3.3.3.2.3.2.2.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 76 		(Key = 5.3.3.3.2.3.2.3.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 77 		(Key = 5.3.3.3.2.3.2.3.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  One
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 78 		(Key = 5.3.3.3.3.3.2.2.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 79 		(Key = 5.3.3.3.3.3.2.2.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  One
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 80 		(Key = 5.3.3.3.3.3.2.3.2.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  One
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+
+
+Test Case 81 		(Key = 5.3.3.3.3.3.2.3.3.3.2.)
+   Options                                                  :  -i
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Length of the string                                     :  More than one
+   Presence of special characters                           :  Many
+   Count                                                    :  Many
+   Size                                                     :  Not empty
+   Number of occurrences of the string fragment in the file :  Many
+   Number of occurrences of the string fragment in one line :  Many
+   Position of the string fragment in the file              :  Any
+   Presence of a file corresponding to the name             :  Present
+

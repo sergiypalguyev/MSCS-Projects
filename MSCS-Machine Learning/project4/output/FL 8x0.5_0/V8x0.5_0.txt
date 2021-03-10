@@ -1,0 +1,10 @@
+FrozenLakeV0-8@0.5
+VI Convergence True  gamma(1.0), theta(1e-07) reached at 82/20000 iterations in 773.06(s). delta=9.55e-08, mean=0.0241, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(1.0), theta(1e-05) reached at 34/20000 iterations in 252.4(s). delta=9.824e-06, mean=0.0241, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(1.0), theta(0.001) reached at 12/20000 iterations in 57.21(s). delta=0.0009387548, mean=0.0237, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.7), theta(1e-07) reached at 16/20000 iterations in 88.01(s). delta=7.31e-08, mean=0.0109, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.7), theta(1e-05) reached at 11/20000 iterations in 54.53(s). delta=4.2097e-06, mean=0.0109, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.7), theta(0.001) reached at 6/20000 iterations in 32.77(s). delta=0.0005818144, mean=0.0109, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.4), theta(1e-07) reached at 9/20000 iterations in 44.29(s). delta=4e-08, mean=0.0073, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.4), theta(1e-05) reached at 6/20000 iterations in 31.35(s). delta=7.7617e-06, mean=0.0073, reward=0.0. rewards/iterations=0.0
+VI Convergence True  gamma(0.4), theta(0.001) reached at 4/20000 iterations in 22.12(s). delta=0.0002467526, mean=0.0073, reward=0.0. rewards/iterations=0.0

@@ -1,0 +1,68 @@
+# CS 6250 Spring 2020 - Firewall Policy
+# Rule number, srcmac, dstmac, srcip, dstip, srcport, dstport, protocol, ipprotocol
+# Rule number is incremented each time - mostly for debug purposes
+# - for a rule element indicates that you don't need to match it.
+# Comments are on their own line
+
+# Format - rulenum, source MAC, destination MAC, source IP, destination IP, source Port, destination Port, Protocol, IPProtocol.
+# For Protocol, use T for TCP, U for UDP, B for both TCP and UDP, I for ICMP, and O for Other
+
+# Rules to be implemented (Extracted from Proj6 requiremetns document):
+# 1. Prohibit all hosts from accessing a PPTP server running on server2. (TCP Port 1723 and the GRE IP Protocol)
+# 2. Prohibit all hosts from accessing a SSH server on the east hosts (e1-e3).
+# 3. Protect DNS and NTP Services on both server1 and server2 from being accessed by all hosts.
+# 4. Write a series of firewall policy rules disallowing hosts w1 and w2 from pinging client1.
+# 5. Write a series of firewall policies to disallow host e1 from accessing all traffic destined to TCP ports 9950-9952 on host e3.
+# 6. Write a series of firewall policies to restrict host client1 from accessing any of the east hosts (e1-e3) on both TCP and UDP protocols.
+# 7. Write a firewall policy rule that will prohibit all hosts from accessing server3 on UDP Port 500 and UDP Port 1701.
+# 
+# Note 1: All hosts mean any other possible hosts on the network.
+# Note 2: No rule for MAC addresses -> use '-' for src_MAC and dst_MAC for all Rules.
+# Note 3: When "all host" -> use '-' for the src_host or dst_host as required.
+# Note 4: Unspecified ports -> use '-' for src_port or dst_post as required.
+#
+# Note *: From Jeffrey Randow - Meaning that I will never specify something like:
+# 1,-,-,-,-,-,80,-,- or 2,-,-,-,-,-,80,O,47  (invalid because IP Protocol 47 does not support ports).
+# So if you have a source or destination port, you are guaranteed a protocol from the following 
+# ("B,-","T,-","U,-","O,6","O,17").
+
+# R1: Block access to PPTP server
+# Port:1723, server: server2 (10.0.0.6)
+# Since Port present, use O,6 for TCP
+1, -, -, -, 10.0.0.6, -, 1723, O, 6
+
+# R2: Block access to SSH server on East Hosts
+# Port: 22, Servers: e1-e3 (10.0.0.1 - 10.0.0.3)
+2, -, -, -, 10.0.0.1, -, 22, B, -
+3, -, -, -, 10.0.0.2, -, 22, B, -
+4, -, -, -, 10.0.0.3, -, 22, B, -
+
+# R3: Block DNS/NTP access on server1/server2
+# Port: DNS (123) and NTP (53), Server: server1 (10.0.0.5) and server2 (10.0.0.6)
+5, -, -, -, 10.0.0.5, -, 123, U, -
+6, -, -, -, 10.0.0.6, -, 123, U, -
+7, -, -, -, 10.0.0.5, -, 53, U, -
+8, -, -, -, 10.0.0.6, -, 53, U, -
+
+# R4: Block West hosts from pinging client1.
+# SrcServer: w1 and w2 (10.0.0.8 and 10.0.0.9), DstServer: client1 (10.0.0.4)
+9, -, -, 10.0.0.8, 10.0.0.4, -, -, I, -
+10, -, -, 10.0.0.9, 10.0.0.4, -, -, I, -
+
+# R5: Block East Host e1 from accessing port 9950-9952 on East Host e3.
+# Port: 9950-9952, SrcServer: e1 (10.0.0.1), DstServer: e3 (10.0.0.3)
+11, -, -, 10.0.0.1, 10.0.0.3, -, 9950, T, -
+12, -, -, 10.0.0.1, 10.0.0.3, -, 9951, T, -
+13, -, -, 10.0.0.1, 10.0.0.3, -, 9952, T, -
+
+# R6: Block client1 access to East Hosts e1-e3
+# SrcServer: client1 (10.0.0.4), DstServer: e1-e3 (10.0.0.1-10.0.03)
+14, -, -, 10.0.0.4, 10.0.0.1, -, -, B, -
+15, -, -, 10.0.0.4, 10.0.0.2, -, -, B, -
+16, -, -, 10.0.0.4, 10.0.0.3, -, -, B, -
+
+# R7: Block all Hosts access to server 3
+# Port: 500 and 1701 Server: server3 (10.0.0.7)
+# Since Port present, use O,17 for UDP
+17, -, -, -, 10.0.0.7, -, 500, U, -	
+18, -, -, -, 10.0.0.7, -, 1701, O, 17

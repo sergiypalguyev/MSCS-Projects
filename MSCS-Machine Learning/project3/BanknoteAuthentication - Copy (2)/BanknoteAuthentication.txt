@@ -1,0 +1,986 @@
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890843952285959
+ Recall: 0.9890909090909091
+ Precision: 0.9891047430830039
+ clasification report:               precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       159
+           1       0.99      0.98      0.99       116
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: [[158   1]
+ [  2 114]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890964973878388
+ Recall: 0.9890909090909091
+ Precision: 0.9891287144228321
+ clasification report:               precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       157
+           1       0.98      0.99      0.99       118
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: [[155   2]
+ [  1 117]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963647010287328
+ Recall: 0.9963636363636363
+ Precision: 0.9963922691481747
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       149
+           1       0.99      1.00      1.00       126
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[148   1]
+ [  0 126]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       150
+           1       0.99      0.99      0.99       125
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[149   1]
+ [  1 124]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963648978274924
+ Recall: 0.9963636363636363
+ Precision: 0.9963927272727272
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       151
+           1       0.99      1.00      1.00       124
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[150   1]
+ [  0 124]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927325163620828
+ Recall: 0.9927272727272727
+ Precision: 0.9928436363636363
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       152
+           1       0.98      1.00      0.99       123
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[150   2]
+ [  0 123]]
+
+ Accuracy: 1.0
+ F1 score: 1.0
+ Recall: 1.0
+ Precision: 1.0
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       152
+           1       1.00      1.00      1.00       123
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[152   0]
+ [  0 123]]
+
+ Accuracy: 1.0
+ F1 score: 1.0
+ Recall: 1.0
+ Precision: 1.0
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       161
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[161   0]
+ [  0 114]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854755199937852
+ Recall: 0.9854545454545455
+ Precision: 0.9859163059163059
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       153
+           1       0.97      1.00      0.98       122
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[149   4]
+ [  0 122]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854755199937852
+ Recall: 0.9854545454545455
+ Precision: 0.9859163059163059
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       153
+           1       0.97      1.00      0.98       122
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[149   4]
+ [  0 122]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       146
+           1       0.99      0.99      0.99       129
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[145   1]
+ [  1 128]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963654991292796
+ Recall: 0.9963636363636363
+ Precision: 0.996394194041253
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       157
+           1       0.99      1.00      1.00       118
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[156   1]
+ [  0 118]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890868277111113
+ Recall: 0.9890909090909091
+ Precision: 0.9891091920488583
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       151
+           1       0.99      0.98      0.99       124
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[150   1]
+ [  2 122]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854460690824327
+ Recall: 0.9854545454545455
+ Precision: 0.9858557993730408
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       134
+           1       0.97      1.00      0.99       141
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[130   4]
+ [  0 141]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927305549924218
+ Recall: 0.9927272727272727
+ Precision: 0.9928391608391609
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       147
+           1       0.98      1.00      0.99       128
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[145   2]
+ [  0 128]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963626695670564
+ Recall: 0.9963636363636363
+ Precision: 0.9963882063882065
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       147
+           1       1.00      0.99      1.00       128
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[147   0]
+ [  1 127]]
+
+ Accuracy: 1.0
+ F1 score: 1.0
+ Recall: 1.0
+ Precision: 1.0
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       147
+           1       1.00      1.00      1.00       128
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[147   0]
+ [  0 128]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963649968235689
+ Recall: 0.9963636363636363
+ Precision: 0.9963929618768328
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       152
+           1       0.99      1.00      1.00       123
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[151   1]
+ [  0 123]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963635401902552
+ Recall: 0.9963636363636363
+ Precision: 0.9963897972531066
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       137
+           1       0.99      1.00      1.00       138
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[136   1]
+ [  0 138]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890894646564954
+ Recall: 0.9890909090909091
+ Precision: 0.9891142191142192
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       142
+           1       0.99      0.98      0.99       133
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[141   1]
+ [  2 131]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890935068714906
+ Recall: 0.9890909090909091
+ Precision: 0.989331550802139
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       142
+           1       0.98      1.00      0.99       133
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[139   3]
+ [  0 133]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890949904707068
+ Recall: 0.9890909090909091
+ Precision: 0.9891254782389156
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       152
+           1       0.98      0.99      0.99       123
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[150   2]
+ [  1 122]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963620765502779
+ Recall: 0.9963636363636363
+ Precision: 0.9963872491145218
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       153
+           1       1.00      0.99      1.00       122
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[153   0]
+ [  1 121]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854755199937852
+ Recall: 0.9854545454545455
+ Precision: 0.9859163059163059
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       153
+           1       0.97      1.00      0.98       122
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[149   4]
+ [  0 122]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       150
+           1       0.99      0.99      0.99       125
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[149   1]
+ [  1 124]]
+
+ Accuracy: 0.9781818181818182
+ F1 score: 0.9782656245356475
+ Recall: 0.9781818181818182
+ Precision: 0.9793006993006993
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       164
+           1       0.95      1.00      0.97       111
+
+    accuracy                           0.98       275
+   macro avg       0.97      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+ confussion matrix: 
+[[158   6]
+ [  0 111]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890837673939378
+ Recall: 0.9890909090909091
+ Precision: 0.9891036222599645
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       161
+           1       0.99      0.98      0.99       114
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[160   1]
+ [  2 112]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       143
+           1       0.99      0.99      0.99       132
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[142   1]
+ [  1 131]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854690407631584
+ Recall: 0.9854545454545455
+ Precision: 0.9855894428152492
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99       157
+           1       0.97      0.99      0.98       118
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[154   3]
+ [  1 117]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890911976110531
+ Recall: 0.9890909090909091
+ Precision: 0.989117644230307
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       139
+           1       0.99      0.99      0.99       136
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[137   2]
+ [  1 135]]
+
+ Accuracy: 0.9818181818181818
+ F1 score: 0.9818235051436632
+ Recall: 0.9818181818181818
+ Precision: 0.9818549401226567
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.98       149
+           1       0.98      0.98      0.98       126
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+ confussion matrix: 
+[[146   3]
+ [  2 124]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       152
+           1       0.99      0.99      0.99       123
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[151   1]
+ [  1 122]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927361660079053
+ Recall: 0.9927272727272727
+ Precision: 0.9928526645768025
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       161
+           1       0.98      1.00      0.99       114
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[159   2]
+ [  0 114]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890978567267228
+ Recall: 0.9890909090909091
+ Precision: 0.9893407356002775
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       147
+           1       0.98      1.00      0.99       128
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[144   3]
+ [  0 128]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890978567267228
+ Recall: 0.9890909090909091
+ Precision: 0.9893407356002775
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       147
+           1       0.98      1.00      0.99       128
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[144   3]
+ [  0 128]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963650962620518
+ Recall: 0.9963636363636363
+ Precision: 0.9963932002956393
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       153
+           1       0.99      1.00      1.00       122
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[152   1]
+ [  0 122]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9890906205707651
+ Recall: 0.9890909090909091
+ Precision: 0.989116492901935
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       138
+           1       0.99      0.99      0.99       137
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[137   1]
+ [  2 135]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9891013749804671
+ Recall: 0.9890909090909091
+ Precision: 0.9893486041517537
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       151
+           1       0.98      1.00      0.99       124
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[148   3]
+ [  0 124]]
+
+ Accuracy: 0.9781818181818182
+ F1 score: 0.9782505501572597
+ Recall: 0.9781818181818182
+ Precision: 0.97874832704101
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       168
+           1       0.95      0.99      0.97       107
+
+    accuracy                           0.98       275
+   macro avg       0.97      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+ confussion matrix: 
+[[163   5]
+ [  1 106]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927337125684234
+ Recall: 0.9927272727272727
+ Precision: 0.9928464977645306
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       155
+           1       0.98      1.00      0.99       120
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[153   2]
+ [  0 120]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927341153470186
+ Recall: 0.9927272727272727
+ Precision: 0.992847483095417
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       156
+           1       0.98      1.00      0.99       119
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[154   2]
+ [  0 119]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963644083231712
+ Recall: 0.9963636363636363
+ Precision: 0.9963916083916085
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       146
+           1       0.99      1.00      1.00       129
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[145   1]
+ [  0 129]]
+
+ Accuracy: 0.9854545454545455
+ F1 score: 0.9854626709744819
+ Recall: 0.9854545454545455
+ Precision: 0.9855755256648114
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99       149
+           1       0.98      0.99      0.98       126
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[146   3]
+ [  1 125]]
+
+ Accuracy: 0.9781818181818182
+ F1 score: 0.9782253041076572
+ Recall: 0.9781818181818182
+ Precision: 0.9786884190189975
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       158
+           1       0.96      0.99      0.97       117
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+ confussion matrix: 
+[[153   5]
+ [  1 116]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.996364799240254
+ Recall: 0.9963636363636363
+ Precision: 0.9963924963924964
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       150
+           1       0.99      1.00      1.00       125
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[149   1]
+ [  0 125]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963648978274924
+ Recall: 0.9963636363636363
+ Precision: 0.9963927272727272
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       151
+           1       0.99      1.00      1.00       124
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[150   1]
+ [  0 124]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927387280565129
+ Recall: 0.9927272727272727
+ Precision: 0.9928595041322312
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       167
+           1       0.98      1.00      0.99       108
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[165   2]
+ [  0 108]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927282347282347
+ Recall: 0.9927272727272727
+ Precision: 0.9928342245989303
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       141
+           1       0.99      1.00      0.99       134
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[139   2]
+ [  0 134]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927282347282347
+ Recall: 0.9927272727272727
+ Precision: 0.9928342245989303
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       141
+           1       0.99      1.00      0.99       134
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[139   2]
+ [  0 134]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9891161919237902
+ Recall: 0.9890909090909091
+ Precision: 0.9893857493857494
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       167
+           1       0.97      1.00      0.99       108
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[164   3]
+ [  0 108]]
+
+ Accuracy: 1.0
+ F1 score: 1.0
+ Recall: 1.0
+ Precision: 1.0
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       149
+           1       1.00      1.00      1.00       126
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[149   0]
+ [  0 126]]
+
+ Accuracy: 1.0
+ F1 score: 1.0
+ Recall: 1.0
+ Precision: 1.0
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       149
+           1       1.00      1.00      1.00       126
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[149   0]
+ [  0 126]]
+
+ Accuracy: 0.9927272727272727
+ F1 score: 0.9927272727272727
+ Recall: 0.9927272727272727
+ Precision: 0.9927272727272727
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       164
+           1       0.99      0.99      0.99       111
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[163   1]
+ [  1 110]]
+
+ Accuracy: 0.9963636363636363
+ F1 score: 0.9963615685975254
+ Recall: 0.9963636363636363
+ Precision: 0.9963865065751857
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       158
+           1       1.00      0.99      1.00       117
+
+    accuracy                           1.00       275
+   macro avg       1.00      1.00      1.00       275
+weighted avg       1.00      1.00      1.00       275
+
+ confussion matrix: 
+[[158   0]
+ [  1 116]]
+
+ Accuracy: 0.9890909090909091
+ F1 score: 0.9891067599945695
+ Recall: 0.9890909090909091
+ Precision: 0.9893613824192337
+ clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99       157
+           1       0.98      1.00      0.99       118
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+ confussion matrix: 
+[[154   3]
+ [  0 118]]
+

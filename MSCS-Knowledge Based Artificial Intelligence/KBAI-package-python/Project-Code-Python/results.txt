@@ -1,0 +1,95 @@
+Basic Problem D-01	3	Correct	3
+Basic Problem D-02	1	Correct	1
+Basic Problem D-03	3	Correct	3
+Basic Problem D-04	1	Correct	1
+Basic Problem D-05	6	Incorrect	7
+Basic Problem D-06	1	Correct	1
+Basic Problem D-07	1	Correct	1
+Basic Problem D-08	-1	Skipped	4
+Basic Problem D-09	-1	Skipped	3
+Basic Problem D-10	-1	Skipped	1
+Basic Problem D-11	-1	Skipped	3
+Basic Problem D-12	-1	Skipped	3
+Basic Problem E-01	1	Correct	1
+Basic Problem E-02	7	Correct	7
+Basic Problem E-03	2	Correct	2
+Basic Problem E-04	8	Correct	8
+Basic Problem E-05	5	Correct	5
+Basic Problem E-06	8	Correct	8
+Basic Problem E-07	3	Correct	3
+Basic Problem E-08	1	Correct	1
+Basic Problem E-09	-1	Skipped	7
+Basic Problem E-10	8	Correct	8
+Basic Problem E-11	5	Correct	5
+Basic Problem E-12	-1	Skipped	6
+
+
+
+
+col subset
+AE# subset: 4
+BD# subset: 3
+fixed sum rate in row or col: 1
+AE# dark rate 3
+dark sum A
+
+
+
+
+Basic Problem D-01 find by similar groups: 3
+Basic Problem D-02 find by similar groups: 1
+Basic Problem D-03 find by similar groups: 3
+Basic Problem D-04 fixed common rate in row or col: 1
+Basic Problem D-05 col subset: 7
+Basic Problem D-06 fixed sum rate in row or col: 1
+Basic Problem D-07 remove input: 1
+Basic Problem D-08 AE# subset: 4
+Basic Problem D-09 BD# subset: 3
+Basic Problem D-10 fixed sum rate in row or col: 1
+Basic Problem D-11 AE# dark rate 3
+D-12							FALSE
+
+Basic Problem E-01 both merged -->: 1
+Basic Problem E-02 both merged -->: 7
+Basic Problem E-03 both merged -->: 2
+Basic Problem E-04 dark sum A: 8
+Basic Problem E-05 both XOR -->: 5
+Basic Problem E-06 both XOR -->: 8
+Basic Problem E-07 both XOR -->: 3
+Basic Problem E-08 both XOR -->: 1
+Basic Problem E-09 AE# subset: 6			FALSE
+Basic Problem E-10 both and -->: 8
+Basic Problem E-11 both and -->: 5
+Basic Problem E-12 dark sum A: 6
+
+
+
+
+    "Basic Problems B": "Correct": 	"10"	10 	11
+    "Basic Problems C": "Correct": 	"8"	8	8
+    "Basic Problems D": "Correct": 	"3"	3	4
+    "Basic Problems E": "Correct": 	"6"	7	10
+    "Test Problems B": "Correct": 	"8"	10	7
+    "Test Problems C": "Correct": 	"4"	5	4
+    "Test Problems E": "Correct": 	"7"	7	8
+    "Test Problems D": "Correct": 	"4"	4	4
+
+
+
+
+
+
+~Submit 1 - Standard from P2
+~Submit 2 - Add Overlay
+~Submit 3 - Add Composite
+~Submit 4 - Add Common and Sum
+Submit 5 - Add Edge and Guess
+
+
+
+
+			Picks	Composi	Overl	Common	Sum	Edge	Guess
+Basic Problems C	8	8	8	8	8	9	
+Basic Problems D	3	3	3	3	4	6	
+Basic Problems E	0	3	7	9	10	11	
+

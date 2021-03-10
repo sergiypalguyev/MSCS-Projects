@@ -1,0 +1,2 @@
+BanknoteAuthentication NeuralNet calculated BEST parameters are (13, 137) Layers, 0.001 Alpha with 1.0 score at 50% Train and 50% Test
+Predicting with 100.0% Train Accuracy, 100.0% Test Accuracy, 100.0% CV Accuracy, 100.0% Precision Score, 100.0% Recall Score and 100.0% \F-1 Score

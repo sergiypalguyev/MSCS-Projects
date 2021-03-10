@@ -1,0 +1,570 @@
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9782325825650601
+Original Recall: 0.9781818181818182
+Original Precision: 0.9792207792207792
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       155
+           1       0.95      1.00      0.98       120
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[149   6]
+ [  0 120]]
+
+Original Accuracy: 0.9890909090909091
+Original F1 score: 0.9890888843090252
+Original Recall: 0.9890909090909091
+Original Precision: 0.989113093802749
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       144
+           1       0.99      0.98      0.99       131
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+Original confussion matrix: 
+[[143   1]
+ [  2 129]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1217.55, MutualInfo: 0.23, Homogeneity: 0.38, Completeness: 0.17, Silhouette: 0.33
+BanknoteAuthenticationOriginal Best Silhouete EM 6 clusters, SIL: 0.29, AIC: 7108.21, BIC: 7553.24
+BanknoteAuthenticationOriginal Best BIC EM 2 clusters, SIL: 0.29, AIC: 9130.52, BIC: 9275.53
+BanknoteAuthenticationOriginal Best AIC EM 2 clusters, SIL: 0.29, AIC: 9130.52, BIC: 9275.53
+
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9781852806524832
+Original Recall: 0.9781818181818182
+Original Precision: 0.9786026562034179
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.98       141
+           1       0.96      0.99      0.98       134
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[136   5]
+ [  1 133]]
+
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9782544038240241
+Original Recall: 0.9781818181818182
+Original Precision: 0.9792727272727273
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       161
+           1       0.95      1.00      0.97       114
+
+    accuracy                           0.98       275
+   macro avg       0.97      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[155   6]
+ [  0 114]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1196.28, MutualInfo: 0.25, Homogeneity: 0.41, Completeness: 0.18, Silhouette: 0.32
+BanknoteAuthenticationOriginal Best Silhouete EM 5 clusters, SIL: 0.27, AIC: 7240.93, BIC: 7610.95
+BanknoteAuthenticationOriginal Best BIC EM 2 clusters, SIL: 0.29, AIC: 9096.69, BIC: 9241.70
+BanknoteAuthenticationOriginal Best AIC EM 2 clusters, SIL: 0.29, AIC: 9096.69, BIC: 9241.70
+
+PCA Accuracy: 0.9054545454545454
+PCA F1 score: 0.9058103616813294
+PCA Recall: 0.9054545454545454
+PCA Precision: 0.9077089200054379
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.92       159
+           1       0.86      0.92      0.89       116
+
+    accuracy                           0.91       275
+   macro avg       0.90      0.91      0.90       275
+weighted avg       0.91      0.91      0.91       275
+
+PCA confussion matrix: 
+[[142  17]
+ [  9 107]]
+
+PCA Accuracy: 0.8981818181818182
+PCA F1 score: 0.8982719759579263
+PCA Recall: 0.8981818181818182
+PCA Precision: 0.8984580618138959
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.90      0.91       155
+           1       0.88      0.89      0.88       120
+
+    accuracy                           0.90       275
+   macro avg       0.90      0.90      0.90       275
+weighted avg       0.90      0.90      0.90       275
+
+PCA confussion matrix: 
+[[140  15]
+ [ 13 107]]
+
+BanknoteAuthenticationPCA Best SSE k-Means 5 clusters, SSE: 1052.34, MutualInfo: 0.28, Homogeneity: 0.45, Completeness: 0.20, Silhouette: 0.37
+BanknoteAuthenticationPCA Best Silhouete EM 11 clusters, SIL: 0.28, AIC: 6876.55, BIC: 7421.59
+BanknoteAuthenticationPCA Best BIC EM 2 clusters, SIL: 0.22, AIC: 8653.79, BIC: 8748.80
+BanknoteAuthenticationPCA Best AIC EM 2 clusters, SIL: 0.22, AIC: 8653.79, BIC: 8748.80
+
+RP Accuracy: 0.9127272727272727
+RP F1 score: 0.912872212968645
+RP Recall: 0.9127272727272727
+RP Precision: 0.913406226330815
+RP clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92       155
+           1       0.89      0.92      0.90       120
+
+    accuracy                           0.91       275
+   macro avg       0.91      0.91      0.91       275
+weighted avg       0.91      0.91      0.91       275
+
+RP confussion matrix: 
+[[141  14]
+ [ 10 110]]
+
+BanknoteAuthenticationRP Best SSE k-Means 6 clusters, SSE: 579.05, MutualInfo: 0.30, Homogeneity: 0.52, Completeness: 0.21, Silhouette: 0.39
+BanknoteAuthenticationRP Best Silhouete EM 3 clusters, SIL: 0.22, AIC: 2988.57, BIC: 3133.58
+BanknoteAuthenticationRP Best BIC EM 2 clusters, SIL: 0.07, AIC: 2787.15, BIC: 2882.16
+BanknoteAuthenticationRP Best AIC EM 2 clusters, SIL: 0.07, AIC: 2787.15, BIC: 2882.16
+
+FT Accuracy: 0.9781818181818182
+FT F1 score: 0.9782376890843709
+FT Recall: 0.9781818181818182
+FT Precision: 0.9787172965832693
+FT clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       163
+           1       0.96      0.99      0.97       112
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+FT confussion matrix: 
+[[158   5]
+ [  1 111]]
+
+BanknoteAuthenticationFT Best SSE k-Means 5 clusters, SSE: 938.12, MutualInfo: 0.44, Homogeneity: 0.71, Completeness: 0.32, Silhouette: 0.39
+BanknoteAuthenticationFT Best Silhouete EM 5 clusters, SIL: 0.36, AIC: 7048.94, BIC: 7293.95
+BanknoteAuthenticationFT Best BIC EM 2 clusters, SIL: 0.26, AIC: 8259.69, BIC: 8354.70
+BanknoteAuthenticationFT Best AIC EM 2 clusters, SIL: 0.26, AIC: 8259.69, BIC: 8354.70
+
+ICA Accuracy: 0.9745454545454545
+ICA F1 score: 0.9746518476299041
+ICA Recall: 0.9745454545454545
+ICA Precision: 0.976042780748663
+ICA clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       163
+           1       0.94      1.00      0.97       112
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.98      0.97       275
+weighted avg       0.98      0.97      0.97       275
+
+ICA confussion matrix: 
+[[156   7]
+ [  0 112]]
+
+BanknoteAuthenticationICA Best SSE k-Means 5 clusters, SSE: 938.12, MutualInfo: 0.44, Homogeneity: 0.71, Completeness: 0.32, Silhouette: 0.39
+ICA Accuracy: 0.8909090909090909
+ICA F1 score: 0.8908571043485795
+ICA Recall: 0.8909090909090909
+ICA Precision: 0.8911828205721335
+ICA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89       140
+           1       0.90      0.87      0.89       135
+
+    accuracy                           0.89       275
+   macro avg       0.89      0.89      0.89       275
+weighted avg       0.89      0.89      0.89       275
+
+ICA confussion matrix: 
+[[127  13]
+ [ 17 118]]
+
+BanknoteAuthenticationICA Best SSE k-Means 5 clusters, SSE: 1042.36, MutualInfo: 0.26, Homogeneity: 0.43, Completeness: 0.19, Silhouette: 0.34
+ICA Accuracy: 0.9018181818181819
+ICA F1 score: 0.9021895551257254
+ICA Recall: 0.9018181818181819
+ICA Precision: 0.9037415477084898
+ICA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.94      0.89      0.91       161
+           1       0.86      0.91      0.89       114
+
+    accuracy                           0.90       275
+   macro avg       0.90      0.90      0.90       275
+weighted avg       0.90      0.90      0.90       275
+
+ICA confussion matrix: 
+[[144  17]
+ [ 10 104]]
+
+ICA Accuracy: 0.9309090909090909
+ICA F1 score: 0.9309255435194395
+ICA Recall: 0.9309090909090909
+ICA Precision: 0.9311635825029816
+ICA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.92      0.94      0.93       133
+           1       0.94      0.92      0.93       142
+
+    accuracy                           0.93       275
+   macro avg       0.93      0.93      0.93       275
+weighted avg       0.93      0.93      0.93       275
+
+ICA confussion matrix: 
+[[125   8]
+ [ 11 131]]
+
+BanknoteAuthenticationICA Best SSE k-Means 5 clusters, SSE: 1069.55, MutualInfo: 0.25, Homogeneity: 0.41, Completeness: 0.18, Silhouette: 0.38
+BanknoteAuthenticationICA Best Silhouete EM 4 clusters, SIL: 0.30, AIC: 7485.97, BIC: 7680.98
+BanknoteAuthenticationICA Best BIC EM 2 clusters, SIL: 0.30, AIC: 8898.36, BIC: 8993.37
+BanknoteAuthenticationICA Best AIC EM 2 clusters, SIL: 0.30, AIC: 8898.36, BIC: 8993.37
+
+PCA Accuracy: 0.9127272727272727
+PCA F1 score: 0.9127901963449925
+PCA Recall: 0.9127272727272727
+PCA Precision: 0.912950303030303
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92       152
+           1       0.90      0.91      0.90       123
+
+    accuracy                           0.91       275
+   macro avg       0.91      0.91      0.91       275
+weighted avg       0.91      0.91      0.91       275
+
+PCA confussion matrix: 
+[[139  13]
+ [ 11 112]]
+
+PCA Accuracy: 0.9272727272727272
+PCA F1 score: 0.92734790654638
+PCA Recall: 0.9272727272727272
+PCA Precision: 0.9283062444065938
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.95      0.91      0.93       147
+           1       0.90      0.95      0.92       128
+
+    accuracy                           0.93       275
+   macro avg       0.93      0.93      0.93       275
+weighted avg       0.93      0.93      0.93       275
+
+PCA confussion matrix: 
+[[134  13]
+ [  7 121]]
+
+PCA Accuracy: 0.8872727272727273
+PCA F1 score: 0.8872009350359865
+PCA Recall: 0.8872727272727273
+PCA Precision: 0.8873411410018552
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89       144
+           1       0.89      0.87      0.88       131
+
+    accuracy                           0.89       275
+   macro avg       0.89      0.89      0.89       275
+weighted avg       0.89      0.89      0.89       275
+
+PCA confussion matrix: 
+[[130  14]
+ [ 17 114]]
+
+PCA Accuracy: 0.9236363636363636
+PCA F1 score: 0.9236587216033856
+PCA Recall: 0.9236363636363636
+PCA Precision: 0.9237056240205848
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.93      0.93       149
+           1       0.91      0.92      0.92       126
+
+    accuracy                           0.92       275
+   macro avg       0.92      0.92      0.92       275
+weighted avg       0.92      0.92      0.92       275
+
+PCA confussion matrix: 
+[[138  11]
+ [ 10 116]]
+
+PCA Accuracy: 0.9054545454545454
+PCA F1 score: 0.9055703729529234
+PCA Recall: 0.9054545454545454
+PCA Precision: 0.9060706555349413
+PCA clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.93      0.90      0.91       151
+           1       0.88      0.91      0.90       124
+
+    accuracy                           0.91       275
+   macro avg       0.90      0.91      0.90       275
+weighted avg       0.91      0.91      0.91       275
+
+PCA confussion matrix: 
+[[136  15]
+ [ 11 113]]
+
+BanknoteAuthenticationPCA Best SSE k-Means 5 clusters, SSE: 1047.95, MutualInfo: 0.27, Homogeneity: 0.44, Completeness: 0.20, Silhouette: 0.35
+Original Accuracy: 0.9745454545454545
+Original F1 score: 0.9746518476299041
+Original Recall: 0.9745454545454545
+Original Precision: 0.976042780748663
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       163
+           1       0.94      1.00      0.97       112
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.98      0.97       275
+weighted avg       0.98      0.97      0.97       275
+
+Original confussion matrix: 
+[[156   7]
+ [  0 112]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1219.13, MutualInfo: 0.24, Homogeneity: 0.40, Completeness: 0.17, Silhouette: 0.32
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9781893361091836
+Original Recall: 0.9781818181818182
+Original Precision: 0.9783004873913966
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       145
+           1       0.97      0.98      0.98       130
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[141   4]
+ [  2 128]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1220.63, MutualInfo: 0.24, Homogeneity: 0.40, Completeness: 0.17, Silhouette: 0.34
+Original Accuracy: 0.9854545454545455
+Original F1 score: 0.985485165811194
+Original Recall: 0.9854545454545455
+Original Precision: 0.9859393939393939
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99       159
+           1       0.97      1.00      0.98       116
+
+    accuracy                           0.99       275
+   macro avg       0.98      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+Original confussion matrix: 
+[[155   4]
+ [  0 116]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1200.96, MutualInfo: 0.24, Homogeneity: 0.39, Completeness: 0.17, Silhouette: 0.33
+Original Accuracy: 0.9745454545454545
+Original F1 score: 0.9746072662744
+Original Recall: 0.9745454545454545
+Original Precision: 0.9759375
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.98       154
+           1       0.95      1.00      0.97       121
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.98      0.97       275
+weighted avg       0.98      0.97      0.97       275
+
+Original confussion matrix: 
+[[147   7]
+ [  0 121]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1220.33, MutualInfo: 0.23, Homogeneity: 0.38, Completeness: 0.17, Silhouette: 0.35
+Original Accuracy: 0.9818181818181818
+Original F1 score: 0.9818278067930667
+Original Recall: 0.9818181818181818
+Original Precision: 0.9824866310160428
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.98       144
+           1       0.96      1.00      0.98       131
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[139   5]
+ [  0 131]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1246.97, MutualInfo: 0.24, Homogeneity: 0.40, Completeness: 0.18, Silhouette: 0.36
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9781899015560496
+Original Recall: 0.9781818181818182
+Original Precision: 0.978611933982226
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       143
+           1       0.96      0.99      0.98       132
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[138   5]
+ [  1 131]]
+
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9782434017595307
+Original Recall: 0.9781818181818182
+Original Precision: 0.9792461197339245
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       158
+           1       0.95      1.00      0.97       117
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[152   6]
+ [  0 117]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1213.60, MutualInfo: 0.24, Homogeneity: 0.39, Completeness: 0.17, Silhouette: 0.33
+Original Accuracy: 0.9854545454545455
+Original F1 score: 0.9854587836406017
+Original Recall: 0.9854545454545455
+Original Precision: 0.9855673755451367
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.98      0.99       144
+           1       0.98      0.99      0.98       131
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+Original confussion matrix: 
+[[141   3]
+ [  1 130]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1234.00, MutualInfo: 0.23, Homogeneity: 0.38, Completeness: 0.17, Silhouette: 0.34
+Original Accuracy: 0.9745454545454545
+Original F1 score: 0.9746268062732634
+Original Recall: 0.9745454545454545
+Original Precision: 0.9759824046920821
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98       158
+           1       0.94      1.00      0.97       117
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.98      0.97       275
+weighted avg       0.98      0.97      0.97       275
+
+Original confussion matrix: 
+[[151   7]
+ [  0 117]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1236.79, MutualInfo: 0.25, Homogeneity: 0.41, Completeness: 0.18, Silhouette: 0.35
+BanknoteAuthenticationOriginal Best Silhouete EM 5 clusters, SIL: 0.29, AIC: 7343.02, BIC: 7713.04
+BanknoteAuthenticationOriginal Best BIC EM 2 clusters, SIL: 0.31, AIC: 9176.44, BIC: 9321.45
+BanknoteAuthenticationOriginal Best AIC EM 2 clusters, SIL: 0.31, AIC: 9176.44, BIC: 9321.45
+
+Original Accuracy: 0.9709090909090909
+Original F1 score: 0.9709447301393611
+Original Recall: 0.9709090909090909
+Original Precision: 0.9713930117501547
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.96      0.97       151
+           1       0.95      0.98      0.97       124
+
+    accuracy                           0.97       275
+   macro avg       0.97      0.97      0.97       275
+weighted avg       0.97      0.97      0.97       275
+
+Original confussion matrix: 
+[[145   6]
+ [  2 122]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1202.99, MutualInfo: 0.24, Homogeneity: 0.40, Completeness: 0.18, Silhouette: 0.32
+Original Accuracy: 0.9781818181818182
+Original F1 score: 0.9781870168378696
+Original Recall: 0.9781818181818182
+Original Precision: 0.9782957552662221
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98       143
+           1       0.97      0.98      0.98       132
+
+    accuracy                           0.98       275
+   macro avg       0.98      0.98      0.98       275
+weighted avg       0.98      0.98      0.98       275
+
+Original confussion matrix: 
+[[139   4]
+ [  2 130]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1219.70, MutualInfo: 0.23, Homogeneity: 0.38, Completeness: 0.17, Silhouette: 0.36
+Original Accuracy: 0.9890909090909091
+Original F1 score: 0.9890926404865223
+Original Recall: 0.9890909090909091
+Original Precision: 0.989329794293298
+Original clasification report: 
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       134
+           1       1.00      0.98      0.99       141
+
+    accuracy                           0.99       275
+   macro avg       0.99      0.99      0.99       275
+weighted avg       0.99      0.99      0.99       275
+
+Original confussion matrix: 
+[[134   0]
+ [  3 138]]
+
+BanknoteAuthenticationOriginal Best SSE k-Means 5 clusters, SSE: 1244.43, MutualInfo: 0.24, Homogeneity: 0.39, Completeness: 0.17, Silhouette: 0.35

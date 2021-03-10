@@ -1,0 +1,20 @@
+
+# IntelliJ Files
+.idea/
+out/
+Tools4Rent.iml
+
+# Class Files
+*.class
+
+# Package Files
+*.war
+*.ear
+
+# Virtual Machine crash logs
+hs_err_pid*
+
+# Mac Files
+*.DS_Store
+
+web/t4r.properties

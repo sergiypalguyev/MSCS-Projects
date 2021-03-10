@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.gatech.seclass.tipcalculator.TipCalculatorActivity"
+    android:id="@+id/TipCalculator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check amount:"
+        android:id="@+id/textView2"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_alignBaseline="@+id/checkAmountValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party size:"
+        android:id="@+id/textView"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignBaseline="@+id/partySizeValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip:"
+        android:id="@+id/textView4"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:phoneNumber="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:id="@+id/textView5"
+        android:phoneNumber="true"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_alignBottom="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:id="@+id/textView6"
+        android:phoneNumber="true"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20%"
+        android:id="@+id/textView7"
+        android:phoneNumber="true"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/fifteenPercentTipValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20%"
+        android:id="@+id/textView8"
+        android:phoneNumber="true"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25%"
+        android:id="@+id/textView9"
+        android:phoneNumber="true"
+        android:layout_alignBottom="@+id/twentyPercentTipValue"
+        android:layout_toEndOf="@+id/twentyPercentTipValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25%"
+        android:id="@+id/textView10"
+        android:phoneNumber="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignStart="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/checkAmountValue"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/partySizeValue"
+        android:layout_below="@+id/checkAmountValue"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/fifteenPercentTipValue"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView2"
+        android:editable="false"
+        android:elegantTextHeight="true"
+        android:enabled="true"
+        android:inputType="none" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/twentyPercentTipValue"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/fifteenPercentTipValue"
+        android:layout_toEndOf="@+id/textView7"
+        android:inputType="none"
+        android:enabled="true"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/twentyfivePercentTipValue"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:inputType="none"
+        android:enabled="true"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/twentyPercentTotalValue"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/textView7"
+        android:inputType="none"
+        android:enabled="true"
+        android:editable="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/twentyfivePercentTotalValue"
+        android:width="50dp"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignStart="@+id/twentyfivePercentTipValue"
+        android:inputType="none"
+        android:enabled="true"
+        android:editable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute Tip"
+        android:id="@+id/buttonCompute"
+        android:layout_below="@+id/partySizeValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:onClick="handleClick" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/fifteenPercentTotalValue"
+        android:width="50dp"
+        android:inputType="none"
+        android:enabled="true"
+        android:editable="false"
+        android:layout_alignBottom="@+id/twentyPercentTotalValue"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:id="@+id/textView11"
+        android:layout_toStartOf="@+id/checkAmountValue"
+        android:layout_alignBaseline="@+id/checkAmountValue" />
+
+</RelativeLayout>

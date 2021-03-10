@@ -1,0 +1,45 @@
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 1/1 iterations in 9.16(s). delta=0.995904, mean=0.3706, reward=0.761. rewards/iterations=0.761
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 2/2 iterations in 15.6(s). delta=0.593856, mean=0.5262, reward=0.761. rewards/iterations=0.728
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 3/3 iterations in 17.23(s). delta=0.350784, mean=0.5902, reward=0.761. rewards/iterations=0.72
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 5/5 iterations in 22.79(s). delta=0.12628224, mean=0.6441, reward=0.766. rewards/iterations=0.732
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 8/8 iterations in 35.02(s). delta=0.0220999126, mean=0.6879, reward=0.839. rewards/iterations=0.76
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 13/13 iterations in 65.81(s). delta=0.0167316217, mean=0.7381, reward=0.887. rewards/iterations=0.8
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 21/21 iterations in 120.5(s). delta=0.0126910607, mean=0.7933, reward=0.931. rewards/iterations=0.845
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 34/34 iterations in 242.61(s). delta=0.0095059051, mean=0.8503, reward=0.966. rewards/iterations=0.885
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 55/55 iterations in 523.63(s). delta=0.0066095379, mean=0.9018, reward=0.978. rewards/iterations=0.917
+VI 1 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 1/1 iterations in 13.99(s). delta=0.995904, mean=0.3706, reward=0.761. rewards/iterations=0.761
+VI 2 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 2/2 iterations in 19.47(s). delta=0.593856, mean=0.5262, reward=0.761. rewards/iterations=0.728
+VI 3 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 3/3 iterations in 24.52(s). delta=0.350784, mean=0.5902, reward=0.761. rewards/iterations=0.72
+VI 5 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 5/5 iterations in 34.33(s). delta=0.12628224, mean=0.6441, reward=0.766. rewards/iterations=0.732
+VI 8 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 8/8 iterations in 53.23(s). delta=0.0220999126, mean=0.6879, reward=0.839. rewards/iterations=0.76
+VI 13 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 13/13 iterations in 95.2(s). delta=0.0167316217, mean=0.7381, reward=0.887. rewards/iterations=0.8
+VI 21 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 21/21 iterations in 181.98(s). delta=0.0126910607, mean=0.7933, reward=0.931. rewards/iterations=0.845
+VI 34 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 34/34 iterations in 364.91(s). delta=0.0095059051, mean=0.8503, reward=0.966. rewards/iterations=0.885
+VI 55 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 55/55 iterations in 721.09(s). delta=0.0066095379, mean=0.9018, reward=0.978. rewards/iterations=0.917
+VI 1 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 1/1 iterations in 13.62(s). delta=0.995904, mean=0.3706, reward=0.76. rewards/iterations=0.76
+VI 2 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 2/2 iterations in 20.03(s). delta=0.593856, mean=0.5262, reward=0.761. rewards/iterations=0.728
+VI 3 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 3/3 iterations in 24.54(s). delta=0.350784, mean=0.5902, reward=0.761. rewards/iterations=0.72
+VI 5 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 5/5 iterations in 35.09(s). delta=0.12628224, mean=0.6441, reward=0.766. rewards/iterations=0.732
+VI 8 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 8/8 iterations in 53.56(s). delta=0.0220999126, mean=0.6879, reward=0.839. rewards/iterations=0.76
+VI 13 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 13/13 iterations in 94.86(s). delta=0.0167316217, mean=0.7381, reward=0.887. rewards/iterations=0.8
+VI 21 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 21/21 iterations in 183.0(s). delta=0.0126910607, mean=0.7933, reward=0.931. rewards/iterations=0.845
+VI 34 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 34/34 iterations in 367.45(s). delta=0.0095059051, mean=0.8503, reward=0.966. rewards/iterations=0.885
+VI 55 Iterations test
+VI Convergence False  gamma(1.0), theta(1e-08) reached at 55/55 iterations in 726.42(s). delta=0.0066095379, mean=0.9018, reward=0.978. rewards/iterations=0.917

@@ -1,0 +1,10 @@
+BanknoteAuthentication Decision Tree calculated BEST parameters are 10 Leaves, 10 Tree Depth with 0.96 score at 50% Train and 50% Test
+Predicting with 98.8% Train Accuracy, 96.6% Test Accuracy, 94.3% CV Accuracy, 95.4% Precision Score, 97.0% Recall Score and 96.2% \F-1 Score
+BanknoteAuthentication AdaBoost calculated BEST parameters are 100 Estimator, 0.001 Learning Rate with 0.99 score at 74% Train and 26% Test
+Predicting with 100.0% Train Accuracy, 98.3% Test Accuracy, 98.3% CV Accuracy, 97.0% Precision Score, 99.4% Recall Score and 98.2% \F-1 Score
+BanknoteAuthentication KNN calculated BEST parameters are minkowski Metric, 5 Neighbors with 1.0 score at 82% Train and 18% Test
+Predicting with 99.9% Train Accuracy, 99.6% Test Accuracy, 99.9% CV Accuracy, 99.1% Precision Score, 100.0% Recall Score and 99.6% \F-1 Score
+BanknoteAuthentication NeuralNet calculated BEST parameters are (126, 40) Layers, 0.001 Alpha with 1.0 score at 26% Train and 74% Test
+Predicting with 100.0% Train Accuracy, 99.9% Test Accuracy, 100.0% CV Accuracy, 99.8% Precision Score, 100.0% Recall Score and 99.9% \F-1 Score
+BanknoteAuthentication NeuralNet calculated BEST parameters are (183, 150) Layers, 0.0001 Alpha with 1.0 score at 26% Train and 74% Test
+Predicting with 100.0% Train Accuracy, 99.9% Test Accuracy, 100.0% CV Accuracy, 99.8% Precision Score, 100.0% Recall Score and 99.9% \F-1 Score

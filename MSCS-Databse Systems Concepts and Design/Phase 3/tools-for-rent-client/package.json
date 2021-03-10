@@ -1,0 +1,30 @@
+{
+  "name": "tools-for-rent-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.0",
+    "gravatar-url": "^2.0.0",
+    "install": "^0.10.1",
+    "material-ui": "^0.19.4",
+    "npm": "^5.5.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-bootstrap-table": "^4.1.4",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-modal": "^3.1.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-tap-event-plugin": "^3.0.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
